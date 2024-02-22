@@ -12,7 +12,6 @@
      # ./hyprland.nix
      #./wayfire.nix
     ./i3sddm.nix
-    ./blueman-applet.nix
    ];
 
 nix = {
@@ -31,6 +30,9 @@ nix = {
     enable = true;
     algorithm = "zstd";
   };
+
+  # Hardware video acceleration via VA-API (to make youtube etc run cooler)
+  hardware.opengl.extraPackages = with pkgs; [ intel-media-driver ];
 
 ##### Networking Settings ######################################################
 
