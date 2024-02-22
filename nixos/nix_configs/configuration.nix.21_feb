@@ -1,0 +1,480 @@
+# Edit this configuration file to define what should be installed on
+# your system.  Help is available in the configuration.nix(5) man page
+# and in the NixOS manual (accessible by running ‘nixos-help’).
+
+{ config, pkgs, ... }:
+
+{
+ 
+ imports = [
+    ./hardware-configuration.nix        # Import hardware configuration
+     # ./i3.nix
+     # ./hyprland.nix
+     #./wayfire.nix
+    ./i3sddm.nix
+    ./blueman-applet.nix
+   ];
+
+nix = {
+  package = pkgs.nixUnstable;
+  extraOptions = ''
+    experimental-features = nix-command flakes
+  '';
+};
+
+  # Bootloader.
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
+
+  # Turn on swap
+  zramSwap = {
+    enable = true;
+    algorithm = "zstd";
+  };
+
+##### Networking Settings ######################################################
+
+  networking = {
+    hostName = "paul";                 # Set computer's hostname
+    networkmanager.enable = true;       # Use nm-connection-editor
+    networkmanager.plugins = with pkgs; [ gnome3.networkmanager-openvpn ];
+
+    firewall = {
+      enable = true;                    # Enable firewall
+      allowedTCPPorts = [ 
+        80
+        9925
+        25565                           # Minecraft
+        #22070                           # Syncthing relay
+        #22067                           # Syncthing relay
+      ];
+      allowedUDPPorts = [ 25565 ];      # Minecraft
+    };
+  };
+
+  # Set your time zone.
+  time.timeZone = "America/Mexico_City";
+
+  # Select internationalisation properties.
+  i18n.defaultLocale = "en_US.UTF-8";
+
+  # Turn on trim (necessary for ssd)
+  services.fstrim.enable = true;
+
+  # Enable the X11 windowing system.
+
+ services.xserver = {
+    enable = true;
+
+    desktopManager = {
+      xterm.enable = false;
+    };
+   
+#   displayManager.lightdm.greeters.slick.enable = true;
+
+  };
+
+programs.wayfire = {
+  enable = true;
+  plugins = with pkgs.wayfirePlugins; [
+    wcm
+    wf-shell
+    wayfire-plugins-extra
+  ];
+};
+
+
+programs.zsh = {
+  enable = true;
+  enableCompletion = true;
+  autosuggestions.enable = true;
+
+  ohMyZsh = {
+    enable = true;
+    plugins = [ "git" ];
+  };
+};
+
+   # programs.zsh.enableCompletion  (uncomment if not using a plugin like https://github.com/marlonrichert/zsh-autocomplete)
+
+  # Configure keymap in X11
+  services.xserver = {
+    layout = "us";
+    xkbVariant = "alt-intl";
+    # xkbModel = "altgr-intl";
+  };
+
+  # Configure console keymap
+ #console.keyMap = "dvorak";
+
+    console = {
+        earlySetup = true;
+  };
+
+ # Sets a max size of 50MB for systemd journal logs
+  environment.etc."systemd/journald.conf" = {
+    text = "SystemMaxUse=50M";
+  };
+
+
+  # Enable CUPS to print documents.
+  services.printing.enable = true;
+
+  # Enable virtualization with Docker
+  virtualisation.docker.enable = true;
+  virtualisation.podman.enable = true;
+  virtualisation.podman.defaultNetwork.settings.dns_enable.
+
+  # Enable sound with pulseaudio.
+
+  # sound.enable = true;
+  # hardware.pulseaudio.enable = true;
+   hardware.bluetooth.enable = true;
+   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+   hardware.bluetooth.package.enable = true;
+  # hardware.pulseaudio.package = pkgs.pulseaudioFull;
+   services.blueman.enable = true;
+   security.rtkit.enable = true;
+  services.pipewire = {
+    enable =true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+    # If you want to use JACK applications, uncomment this
+    #jack.enable = true;
+
+    # use the example session manager (no others are packaged yet so this is enabled by default,
+    # no need to redefine it in your config for now)
+    #media-session.enable = true;
+  };
+
+  # Enable touchpad support (enabled default in most desktopManager).
+  services.xserver.libinput.enable = true;
+
+  # Define a user account. Don't forget to set a password with ‘passwd’.
+  users.users.paul = {
+    isNormalUser = true;
+    description = "paul";
+    extraGroups = [ "networkmanager" "wheel" "audio" "video" "disk" "docker" "input"];
+    packages = with pkgs; [
+      firefox
+      broot
+    #  thunderbird
+    ];
+  };
+
+
+# # Waybar 
+# nixpkgs.overlays = [
+#   (self: super: {
+#     waybar = super.waybar.overrideAttrs (oldAttrs: {
+#       mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
+#     });
+#   })
+# ];
+
+programs.waybar = {
+  enable = true;
+  package = pkgs.waybar;
+};
+
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
+
+  # List packages installed in system profile. To search, run:
+  # $ nix search wget
+  environment.systemPackages = with pkgs; [
+        
+            # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+
+            abiword
+            alacritty
+            bc
+            easyeffects
+            escrotum
+            eza
+            fastfetch
+            fd
+            feh
+            ffmpeg
+            ffmpegthumbnailer
+            fzf
+            git
+            glib
+            go
+            greetd.tuigreet
+            htop
+            i3blocks
+            i3lock-color
+            i3status
+            iw
+            jq
+            killall
+            kitty
+            ladspa-sdk
+            ladspaPlugins
+            libinput-gestures
+            libnotify
+            libreoffice
+            lxappearance
+            mesa
+            meson
+            mpv
+            mpv
+            ncdu
+            ninja
+            nitrogen
+            p7zip
+            pamixer
+            pavucontrol
+            pdfgrep
+            picom
+            polybarFull
+            powerline-go
+            pulseeffects-legacy
+            python3
+            python310
+            qpaeq
+            ranger
+            ripgrep
+            rofi
+            rsync
+            st
+            sxhkd
+            sxhkd
+            ueberzugpp
+            unzip
+            vifm
+            vimHugeX
+            wezterm
+            wget
+            wmctrl
+            wmname
+            xclip
+            xfce.thunar
+            xscreensaver
+            youtube-dl
+            zip
+            zsh
+
+            # browsers
+            firefox
+            google-chrome
+            brave
+
+### Wayland ###################################################################
+
+
+    grim # Grab images from a Wayland compositor
+    hyprland
+    kanshi # Dynamic display configuration tool
+    mako # A lightweight Wayland notification daemon
+    meson
+    nwg-look
+    swaybg
+    swayidle # Idle management daemon for Wayland
+    swaylock # Screen locker for Wayland
+    swaylock-effects
+    ulauncher # A fast application launcher for Linux, written in Python, using GTK
+    waybar
+    wayfire
+    wayland-protocols
+    wayland-utils
+    wl-clipboard # Command-line copy/paste utilities for Wayland
+    wlogout # A wayland based logout menu
+    wlroots
+    wlsunset # Day/night gamma adjustments for Wayland
+    wofi # A launcher/menu program for wlroots based wayland compositors such as sway
+    xdg-desktop-portal-wlr # xdg-desktop-portal backend for wlroots
+    xorg.xhost
+ ### Applications ###########################################################
+
+
+    #syncthing                           # File syncing program across devices
+    arandr                              # Multiple display manager
+    ark                                 # Archive manager
+    blueman                             # Bluetooth manager
+    bluez
+    bluez-tools
+    distrobox
+    docker
+    filelight                           # View disk usage
+    gimp                                # Image editor
+    mpv                                 # Video player
+    podman
+    podman-compose
+    podman-tui
+    qpdfview                             # PDF viewer
+    simplescreenrecorder                # ... A simple screen recorder (duh)
+    vlc
+    x2goclient                          # An x2go client (Similar to VNC)
+
+    ### Backup Applications (You never know when you might need them...) #######
+
+    abiword                             # Word processing
+    gparted                             # Partition manager
+    libreoffice                         # More word processing
+    pavucontrol                         # Pulse Audio controller
+    qbittorrent                              # Torrent client
+    ### System-wide theming #################################################### 
+
+    breeze-qt5                          # Breeze theme for qt5 (cursors!)
+    clairvoyance                        # SDDM greeter theme
+    gnome3.adwaita-icon-theme           # Adwaita icon theme
+    lxappearance
+    papirus-icon-theme                  # Papirus theme icons
+    sddm-chili-theme
+    udiskie # Removable disk automounter for udisks
+    xdotool
+  ### Programming (Other) ####################################################
+
+    bundler                             # Bundle command for Ruby
+    ccls                                # C/C++ language server protocol
+    gcc                                 # C/C++ compiler
+    gdb                                 # C code debugger
+    llvm_8                              # LLVM 
+    python3                             # Python 3.6.8
+    sqlite
+    valgrind                            # C/C++ memory debugging tool
+
+# Other
+    gvfs # trash support for VSCode?
+    lm_sensors
+
+### Programming (Rust) #####################################################
+
+    cargo                               # Rust package manager
+    ncurses                             # Library to create Text User Interfaces
+    pkg-config                           # Compiler helper tool
+    rustc                               # Rust compiler
+    rustup                              # Rust toolchain manager
+### System tools ###########################################################
+
+#    polybarPin.polybar
+    alsaUtils
+    brightnessctl                       # Brightness change for NixOS 19.03
+    dunst                               # Notification manager
+    imlib2                              # Image manipulation library (for feh)
+    libnotify                           # Notification library
+    networkmanagerapplet                # GUI for networking
+    ntfs3g                              # Access a USB drive
+    polybar
+    system-config-printer               # Add/manage printers
+    universal-ctags                     # Tool for browsing source code quickly
+    xdotool                             # Used to get current window ID
+    xorg.xbacklight                     # Enable screen backlight adjustments
+    xorg.xcompmgr                       # Window compositing
+    xorg.xev                            # Program to find xmodmap key-bindings
+    xorg.xmodmap                        # Keyboard key remapping
+#    clipmenu
+    
+
+### Nix related stuff ######################################################
+
+    cachix                              # Compiled binary hosting for Nix
+    direnv                              # Manage directory environments
+    nix-index                           # Locate packages
+    nox                                 # Better nix searching
+    patchelf                            # Patches binaries for Nix support
+
+  ];
+
+  # Some programs need SUID wrappers, can be configured further or are
+  # started in user sessions.
+  # programs.mtr.enable = true;
+  # programs.gnupg.agent = {
+  #   enable = true;
+  #   enableSSHSupport = true;
+  # };
+
+    programs.xwayland.enable = true;
+
+    programs.dconf.enable = true;
+    services.gnome.at-spi2-core.enable = true;
+
+    # automount devices
+    services.devmon.enable = true;
+    services.gvfs.enable = true;
+    services.udisks2.enable = true;
+
+     programs.fish.enable = true;
+    users.extraUsers.paul = {
+        shell = pkgs.fish;
+    };
+
+  fonts = {
+    enableDefaultPackages = true;
+    fontDir.enable = true;
+    fontconfig = {
+      antialias = true;
+      cache32Bit = true;
+      # TODO: Set fonts within GNOME Tweaks for the time being
+      # defaultFonts = {
+      #   monospace = [ "Ubuntu Mono Regular" ];
+      #   sansSerif = [ "Ubuntu Regular" ];
+      #   serif = [ "Ubuntu Regular" ];
+      # };
+      hinting.autohint = true;
+      hinting.enable = true;
+    };
+   packages = with pkgs; [
+      noto-fonts-emoji
+      nerdfonts
+      iosevka
+      meslo-lgs-nf
+      noto-fonts-extra
+      ubuntu_font_family
+      noto-fonts
+      noto-fonts-cjk
+      noto-fonts-emoji
+      liberation_ttf
+      fira-code
+      fira-code-symbols
+      mplus-outline-fonts.githubRelease
+      dina-font
+      proggyfonts
+      font-awesome
+      powerline-fonts
+      powerline-symbols
+      (nerdfonts.override { fonts = [ "NerdFontsSymbolsOnly" ]; })
+    ];
+  };
+
+qt = {
+  enable = true;
+
+  platformTheme = "qt5ct";
+
+  style = "adwaita-dark";
+};
+
+# delete old generations of this file
+    nix.gc.automatic = true;
+    nix.gc.options = "--delete-older-than 8d";
+
+# autoupdate packages
+system.autoUpgrade.enable = true;
+
+  # List services that you want to enable:
+
+  # Enable the OpenSSH daemon.
+  # services.openssh.enable = true;
+
+  # Open ports in the firewall.
+  # networking.firewall.allowedTCPPorts = [ ... ];
+  # networking.firewall.allowedUDPPorts = [ ... ];
+  # Or disable the firewall altogether.
+  # networking.firewall.enable = false;
+
+  # This value determines the NixOS release from which the default
+  # settings for stateful data, like file locations and database versions
+  # on your system were taken. It‘s perfectly fine and recommended to leave
+  # this value at the release version of the first install of this system.
+  # Before changing this value read the documentation for this option
+  # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
+  system.stateVersion = "23.11"; # Did you read the comments??
+
+ # system.copySystemConfiguration = true;
+# This saves copy of the configuration.nix that built the current generation inside that generation's path, at /run/current-system/configuration.nix. That way you always have a record of which configuration.nix built each generation on your machine, without having to use a complicated version control strategy.
+
+}

@@ -1,0 +1,29 @@
+# /etc/nixos/flake.nix
+{
+  description = "flake for paul";
+
+  inputs = {
+    nixpkgs = {
+      url = "github:NixOS/nixpkgs/nixos-unstable";
+    };
+
+  sddm-sugar-candy-nix = {
+    url = "gitlab:Zhaith-Izaliel/sddm-sugar-candy-nix";
+    # Optional, by default this flake follows nixpkgs-unstable.
+    inputs.nixpkgs.follows = "nixpkgs";
+  };
+ };
+
+  outputs = { self, nixpkgs, sddm-sugar-candy-nix }: {
+    nixosConfigurations = {
+      paul = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          ./configuration.nix
+           sddm-sugar-candy-nix.nixosModules.default
+        ];
+      };
+    };
+  };
+}
+
