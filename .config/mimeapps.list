@@ -1,0 +1,29 @@
+[Added Associations]
+image/png=viewnior.desktop;
+image/jpeg=viewnior.desktop;
+image/gif=viewnior.desktop;
+image/svg+xml=viewnior.desktop;
+text/x-csrc=vim.desktop;
+application/x-shellscript=vim.desktop;
+application/x-theme=vim.desktop;
+application/json=vim.desktop;
+application/pdf=atril.desktop;qpdfview.desktop;libreoffice-draw.desktop;
+application/x-zerosize=vim.desktop;
+application/xml=vim.desktop;
+
+[Default Applications]
+image/gif=viewnior.desktop
+image/svg+xml=viewnior.desktop
+x-scheme-handler/mailto=google-chrome.desktop
+application/x-zerosize=vim.desktop
+x-scheme-handler/tel=google-chrome.desktop
+text/plain=vim.desktop
+text/markdown=vim.desktop
+text/html=google-chrome.desktop
+inode/directory=vim.desktop
+text/x-script.python=vim.dektop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+

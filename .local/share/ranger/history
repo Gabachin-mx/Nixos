@@ -1,0 +1,19 @@
+mkdir vifm
+open_with vim
+
+rename configuration1.nix
+rename configuration.nix
+mount
+rename config1.jsonc
+rename config.jsonc
+rename config4.jsonc
+open_with :mkdir nix_cnfiigs
+mkdir nix_configs
+rename .zshrc1
+rename style2.css
+.css
+rename .vimrc1
+rename .vimrc
+rename style3.css
+rename style.css
+delete

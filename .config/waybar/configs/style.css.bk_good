@@ -1,0 +1,188 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "Ubuntu", "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0px;
+}
+
+window#waybar {
+background: transparent;
+/* background: rgba(46, 52, 64, 0.8);*/
+border-top: 0px;
+border-bottom: 0px;
+color: #D8DEE9;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+/* Set workspace text color and padding */
+#workspaces button {
+  padding: 1px;
+}
+
+/* Sets active workspace to have a solid line on the bottom */
+#workspaces button.active {
+  border-bottom: 2px solid #FFA500;
+  border-radius: 0px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #FFA500;
+}
+
+/* More workspace stuff for highlighting on hover */
+#workspaces button.focused {
+  color: #a6adc8;
+}
+
+#workspaces button.urgent {
+  color: #f7768e;
+}
+
+#workspaces button:hover {
+  background: #11111b;
+  color: #cdd6f4;
+}
+
+
+#custom-launch_wofi,
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#custom-power_profile,
+#custom-weather,
+#custom-myhyprv,
+#window,
+#cpu,
+#bluetooth
+#disk,
+#hyprland-window,
+#custom-updates,
+#memory,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#custom-fan,
+#workspaces,
+#backlight {
+    background: #1e1e2e;
+    opacity: 0.8;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+    border: 0px;
+}
+
+#tray, #custom-lock_screen, #backlight, #custom-launch_wofi, #cpu, #workspaces {
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 10px;
+}
+
+#custom-light_dark, #custom-power_btn, #pulseaudio. #microphone, #battery, #disk {
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#temperature {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#temperature.critical {
+    color: #e92d4d;
+}
+
+#custom-fan {
+    border-radius: 0px 0px 0px 0px;
+}
+
+#workspaces {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#custom-power_profile {
+    color: #a6e3a1;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#custom-launch_wofi {
+    color: #FFA500;
+    margin-left: 10px;
+    border-right: 0px;
+}
+
+#bluetooth {
+    background: #1e1e2e;
+    color: #00FF00;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    border-radius: 5px 5px 5px 5px;
+} 
+
+#pulseaudio {
+    color: #89b4fa;
+    border-radius: 10px 0px 0px 10px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: #cba6f7;
+    border-radius: 0 10px 10px 0;
+    border-left: 0px;
+    border-right: 0px;
+    margin-right: 10px;
+}
+
+#custom-updates {
+    background: #1e1e2e;
+    color: #00FF00;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-left: 0px;
+}
+
+#network {
+    background: #1e1e2e;
+    color: #00FF00;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-left: 0px;
+}
+
+#hyprland-window {
+    color: #FFA500;
+}
+
+#clock {
+    color: #FFA500;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+#battery {
+    color: #a6e3a1;
+    border-left: 0px;
+}

@@ -1,0 +1,37 @@
+VteTerminal, vte-terminal {
+      padding: 12px;
+}
+
+.window-frame, .window-frame:backdrop {
+      box-shadow: 0 0 0 black;
+      border-style: none;
+      margin: 0;
+      border-radius: 0;
+}
+   
+.titlebar {
+      border-radius: 0;
+}
+
+undershoot.top,
+undershoot.right,
+undershoot.bottom,
+undershoot.left {
+      background-image: none;
+}
+
+headerbar {
+    background: #242526;
+    color: #ffffff; 
+    text-shadow: #000000;
+}
+headerbar:backdrop  {
+    background: #800000;
+    color: #242526;
+    text-shadow: #000000;
+} 
+menubar,toolbar {
+    background: #242526;
+}
+
+* { font-weight: regular; }

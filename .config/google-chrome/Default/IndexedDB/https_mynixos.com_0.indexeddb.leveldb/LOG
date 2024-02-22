@@ -1,0 +1,6 @@
+2024/02/17-22:20:12.998 72a Creating DB /home/paul/.config/google-chrome/Default/IndexedDB/https_mynixos.com_0.indexeddb.leveldb since it was missing.
+2024/02/17-22:20:13.006 72a Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_mynixos.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/17-22:20:13.026 73b Level-0 table #5: started
+2024/02/17-22:20:13.029 73b Level-0 table #5: 1317 bytes OK
+2024/02/17-22:20:13.032 73b Delete type=0 #3
+2024/02/17-22:20:13.032 73a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

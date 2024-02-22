@@ -1,0 +1,7 @@
+2024/02/13-10:34:54.242 693 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_onsitego.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/13-10:34:54.242 693 Recovering log #4
+2024/02/13-10:34:54.242 693 Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_onsitego.com_0.indexeddb.leveldb/000004.log 
+2024/02/13-10:34:56.816 685 Level-0 table #8: started
+2024/02/13-10:34:56.819 685 Level-0 table #8: 575 bytes OK
+2024/02/13-10:34:56.823 685 Delete type=0 #4
+2024/02/13-10:34:56.823 685 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

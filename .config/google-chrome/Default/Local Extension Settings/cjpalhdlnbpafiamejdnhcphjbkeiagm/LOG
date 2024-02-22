@@ -1,0 +1,53 @@
+2024/02/22-08:49:06.171 1168 Reusing MANIFEST /home/paul/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/02/22-08:49:06.171 1168 Recovering log #289
+2024/02/22-08:49:06.180 1168 Reusing old log /home/paul/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000289.log 
+2024/02/22-08:49:24.590 1140 Level-0 table #293: started
+2024/02/22-08:49:24.628 1140 Level-0 table #293: 2331312 bytes OK
+2024/02/22-08:49:24.631 1140 Delete type=0 #289
+2024/02/22-08:49:25.004 1140 Level-0 table #295: started
+2024/02/22-08:49:25.036 1140 Level-0 table #295: 2048449 bytes OK
+2024/02/22-08:49:25.040 1140 Delete type=0 #292
+2024/02/22-08:49:25.041 1140 Compacting 4@0 + 3@1 files
+2024/02/22-08:49:25.094 1140 Generated table #296@0: 13 keys, 2751801 bytes
+2024/02/22-08:49:25.153 1140 Generated table #297@0: 17 keys, 2384916 bytes
+2024/02/22-08:49:25.158 1140 Generated table #298@0: 8 keys, 126794 bytes
+2024/02/22-08:49:25.158 1140 Compacted 4@0 + 3@1 files => 5263511 bytes
+2024/02/22-08:49:25.162 1140 compacted to: files[ 0 3 1 0 0 0 0 ]
+2024/02/22-08:49:25.162 1140 Delete type=2 #295
+2024/02/22-08:49:25.162 1140 Delete type=2 #284
+2024/02/22-08:49:25.162 1140 Delete type=2 #293
+2024/02/22-08:49:25.162 1140 Delete type=2 #288
+2024/02/22-08:49:25.162 1140 Delete type=2 #290
+2024/02/22-08:49:25.162 1140 Delete type=2 #285
+2024/02/22-08:49:25.162 1140 Delete type=2 #286
+2024/02/22-08:49:25.658 1140 Level-0 table #300: started
+2024/02/22-08:49:25.691 1140 Level-0 table #300: 1404226 bytes OK
+2024/02/22-08:49:25.696 1140 Delete type=0 #294
+2024/02/22-08:51:28.460 1140 Level-0 table #302: started
+2024/02/22-08:51:28.508 1140 Level-0 table #302: 3706772 bytes OK
+2024/02/22-08:51:28.513 1140 Delete type=0 #299
+2024/02/22-09:49:28.573 1140 Level-0 table #304: started
+2024/02/22-09:49:28.614 1140 Level-0 table #304: 2350499 bytes OK
+2024/02/22-09:49:28.619 1140 Delete type=0 #301
+2024/02/22-09:49:29.224 1140 Level-0 table #306: started
+2024/02/22-09:49:29.260 1140 Level-0 table #306: 2051818 bytes OK
+2024/02/22-09:49:29.265 1140 Delete type=0 #303
+2024/02/22-09:49:29.268 1140 Compacting 4@0 + 3@1 files
+2024/02/22-09:49:29.331 1140 Generated table #307@0: 13 keys, 2747177 bytes
+2024/02/22-09:49:29.385 1140 Generated table #308@0: 17 keys, 2386267 bytes
+2024/02/22-09:49:29.393 1140 Generated table #309@0: 8 keys, 126507 bytes
+2024/02/22-09:49:29.393 1140 Compacted 4@0 + 3@1 files => 5259951 bytes
+2024/02/22-09:49:29.397 1140 compacted to: files[ 0 3 1 0 0 0 0 ]
+2024/02/22-09:49:29.397 1140 Delete type=2 #296
+2024/02/22-09:49:29.397 1140 Delete type=2 #297
+2024/02/22-09:49:29.397 1140 Delete type=2 #300
+2024/02/22-09:49:29.398 1140 Delete type=2 #302
+2024/02/22-09:49:29.398 1140 Delete type=2 #298
+2024/02/22-09:49:29.398 1140 Delete type=2 #304
+2024/02/22-09:49:29.398 1140 Delete type=2 #306
+2024/02/22-09:49:30.176 1140 Level-0 table #311: started
+2024/02/22-09:49:30.207 1140 Level-0 table #311: 1404470 bytes OK
+2024/02/22-09:49:30.217 1140 Delete type=0 #305
+2024/02/22-09:51:30.495 1140 Level-0 table #313: started
+2024/02/22-09:51:30.544 1140 Level-0 table #313: 3598324 bytes OK
+2024/02/22-09:51:30.548 1140 Delete type=0 #310

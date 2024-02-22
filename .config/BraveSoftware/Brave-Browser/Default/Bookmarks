@@ -1,0 +1,2197 @@
+{
+   "checksum": "8178cb8631b9f15a5ace708c4db0e1d3",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13298266186000000",
+            "date_last_used": "0",
+            "guid": "563644cd-8364-4855-8ffb-391e7e64c1bc",
+            "id": "5",
+            "name": "",
+            "type": "url",
+            "url": "https://math.stackexchange.com/questions/1949774/the-first-homology-group-is-the-abelianization-of-the-fundamental-group#"
+         }, {
+            "date_added": "13252520734000000",
+            "date_last_used": "0",
+            "guid": "ca383fd3-6fca-4972-a441-d15af72f61f4",
+            "id": "6",
+            "name": "Tus dispositivos",
+            "type": "url",
+            "url": "https://myaccount.google.com/device-activity"
+         }, {
+            "date_added": "13310934743000000",
+            "date_last_used": "0",
+            "guid": "cc066bf2-d11d-49e6-9fbd-d95c7631c4ef",
+            "id": "7",
+            "name": "",
+            "type": "url",
+            "url": "https://www.facebook.com/"
+         }, {
+            "date_added": "13302917235000000",
+            "date_last_used": "0",
+            "guid": "28a4d8b5-8576-4bda-8487-1201a58a283e",
+            "id": "8",
+            "name": "Editor en línea de ecuaciones LateX",
+            "type": "url",
+            "url": "https://latex.codecogs.com/eqneditor/editor.php?lang=es-es"
+         }, {
+            "date_added": "13309470524000000",
+            "date_last_used": "0",
+            "guid": "4cac1606-79d0-434f-9f17-ea04bf86cb60",
+            "id": "9",
+            "name": "What Is My IP? Quickly See My IP Address and My IP Location",
+            "type": "url",
+            "url": "https://www.whatismyip.com/"
+         }, {
+            "date_added": "13310174019000000",
+            "date_last_used": "0",
+            "guid": "4723ebbe-47f6-4440-aad7-b8ce6831c636",
+            "id": "10",
+            "name": "PDF Drive - Search and download PDF files for free.",
+            "type": "url",
+            "url": "https://www.pdfdrive.com/"
+         }, {
+            "date_added": "13311883314000000",
+            "date_last_used": "0",
+            "guid": "cf07eccc-e779-4fe8-838d-5599eab7bf60",
+            "id": "11",
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13313997336000000",
+            "date_last_used": "0",
+            "guid": "e7010762-19e4-4925-806b-cdb106eda0c5",
+            "id": "12",
+            "name": "Control Vehicular",
+            "type": "url",
+            "url": "https://sfpya.edomexico.gob.mx/controlv/faces/AvisoV2/InicioAvisoVenta.xhtml?P=2"
+         }, {
+            "date_added": "13315535424000000",
+            "date_last_used": "0",
+            "guid": "f55a3773-2d19-46a5-9ed5-73220516c531",
+            "id": "13",
+            "name": "Facebook Help Center",
+            "type": "url",
+            "url": "https://www.facebook.com/help"
+         }, {
+            "date_added": "13315820107000000",
+            "date_last_used": "0",
+            "guid": "35ff83f3-65de-4f11-aa2c-c54303baac72",
+            "id": "14",
+            "name": "5 Easy Fixes if Outlook Isn’t Loading in Google Chrome",
+            "type": "url",
+            "url": "https://www.makeuseof.com/fixes-outlook-not-loading-chrome/#:~:text=Your%20browser's%20cache%20has%20a,JavaScript%20has%20been%20disabled."
+         }, {
+            "date_added": "13338612427000000",
+            "date_last_used": "0",
+            "guid": "6f28fc31-3b6f-499a-bb71-67b37c67b143",
+            "id": "15",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13338703082000000",
+            "date_last_used": "0",
+            "guid": "9c0ff4d7-9f27-4316-96b0-f9a8e57fa397",
+            "id": "16",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13338612427000000",
+            "date_last_used": "0",
+            "guid": "80e7b095-5f4b-4b5e-a6db-f177622c0d76",
+            "id": "17",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13338798713000000",
+            "date_last_used": "0",
+            "guid": "15552108-849a-4743-88a5-d4582ec2b5cb",
+            "id": "18",
+            "name": "Keymap - Lite XL",
+            "type": "url",
+            "url": "https://takase.is-a.dev/lite-xl-docs/user-guide/keymap/"
+         }, {
+            "date_added": "13341253742000000",
+            "date_last_used": "0",
+            "guid": "6726baf6-91d2-4f3a-892a-ac3e994fb490",
+            "id": "19",
+            "name": "Telegram Web",
+            "type": "url",
+            "url": "https://web.telegram.org/k/#5468602526"
+         }, {
+            "date_added": "13341729118000000",
+            "date_last_used": "0",
+            "guid": "3257c77c-da99-450b-ba1a-1ebeb0eb3cc6",
+            "id": "20",
+            "name": "Download file | iLovePDF",
+            "type": "url",
+            "url": "https://www.ilovepdf.com/download/chlt0z3jnt7458srlj6h955j07z0A7cr3nt2d3c71pf00gz661sm42p53tpvx4bpzsws2t6wfk8ylhtlf70yygcq8l2bhdxsfgw381xww4vcndk8vhtrl9k2px46sm28z2AAhjlb6h5j5ghjjkssAcy1wc81qfkngs74yq6zn60h5A98503q/41"
+         }, {
+            "date_added": "13341729133000000",
+            "date_last_used": "0",
+            "guid": "33bf7d36-c4a0-4abc-9ead-e105f5953646",
+            "id": "21",
+            "name": "iLovePDF | Online PDF tools for PDF lovers",
+            "type": "url",
+            "url": "https://www.ilovepdf.com/"
+         }, {
+            "date_added": "13342155865000000",
+            "date_last_used": "0",
+            "guid": "92f6bd9b-40bf-4f61-b7a3-bbea3d7f3762",
+            "id": "22",
+            "name": "(1) Did not know I had to file FBARs : USExpatTaxes",
+            "type": "url",
+            "url": "https://www.reddit.com/r/USExpatTaxes/comments/11f2mys/did_not_know_i_had_to_file_fbars/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13250747601000000",
+                     "date_last_used": "0",
+                     "guid": "bc964400-a558-4194-b7c1-1e429358d782",
+                     "id": "26",
+                     "name": "Oficina Virtual - DeclaraSAT en línea portada",
+                     "type": "url",
+                     "url": "http://www.sat.gob.mx/sitio_internet/e_sat/oficina_virtual/108_11181.html"
+                  }, {
+                     "date_added": "13250747601000000",
+                     "date_last_used": "0",
+                     "guid": "5edbf98f-fb96-4e30-a299-68e79a57a181",
+                     "id": "27",
+                     "name": "Declaraciones Anuales",
+                     "type": "url",
+                     "url": "https://anualpf.clouda.sat.gob.mx/Home/Index"
+                  } ],
+                  "date_added": "13352100746491078",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "4bbc8f63-c2ba-4fa2-b408-cf7b06f5ed1f",
+                  "id": "25",
+                  "name": "SAT",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13276838032000000",
+                     "date_last_used": "0",
+                     "guid": "869145a8-33a0-45a8-b944-736d60d8da74",
+                     "id": "29",
+                     "name": "streamcast",
+                     "type": "url",
+                     "url": "https://www.streameast.live/reddit-mlb-streams/"
+                  }, {
+                     "date_added": "13279238266000000",
+                     "date_last_used": "0",
+                     "guid": "37cfade6-8c5d-40e6-bf12-c6810475bd4d",
+                     "id": "30",
+                     "name": "MLB66 | MLB Streams",
+                     "type": "url",
+                     "url": "https://mlb66.ir/simulator"
+                  }, {
+                     "date_added": "13310173266000000",
+                     "date_last_used": "0",
+                     "guid": "d46ed05f-54c2-4031-a880-864ee5562782",
+                     "id": "31",
+                     "name": "Live Baseball Streaming - LIVESPORT24",
+                     "type": "url",
+                     "url": "http://livesport24.net/baseball-streams/"
+                  }, {
+                     "date_added": "13303524458000000",
+                     "date_last_used": "0",
+                     "guid": "5778316f-9dae-41e3-9a04-5855ebd16890",
+                     "id": "32",
+                     "name": "New York Yankees - Link 2 Online | MLB Streams",
+                     "type": "url",
+                     "url": "https://reddit.mlbstream.me/new-york-yankees-live/stream-2"
+                  } ],
+                  "date_added": "13352100746491164",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "f237d80f-66ba-48ac-84bf-05e4af0b6104",
+                  "id": "28",
+                  "name": "Baseball Streams",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13250747789000000",
+                     "date_last_used": "0",
+                     "guid": "77de713b-29f8-4cfa-a9e7-92d1f9d2023d",
+                     "id": "34",
+                     "name": "CNN Live Stream - Watch CNN News Live Stream | LiveNewsof.com",
+                     "type": "url",
+                     "url": "https://livenewsof.com/cnn/"
+                  }, {
+                     "date_added": "13250747789000000",
+                     "date_last_used": "0",
+                     "guid": "6891281b-645e-4804-b5f0-92b70299c1fd",
+                     "id": "35",
+                     "name": "CNN Live Stream Watch Online for free - CNN Live HD",
+                     "type": "url",
+                     "url": "https://livenewstime.com/headlines/"
+                  }, {
+                     "date_added": "13250747789000000",
+                     "date_last_used": "0",
+                     "guid": "61cdb970-9b8b-4055-be6e-76ac8e5fe442",
+                     "id": "36",
+                     "name": "CNN Live Stream - Watch CNN News Live Stream | LiveNewsof.com",
+                     "type": "url",
+                     "url": "https://livenewsof.com/cnn/"
+                  }, {
+                     "date_added": "13250747789000000",
+                     "date_last_used": "0",
+                     "guid": "0d1ee8f8-24bb-4d81-825f-4fdc8c44f582",
+                     "id": "37",
+                     "name": "CNN Live Stream Watch Online for free - CNN Live HD",
+                     "type": "url",
+                     "url": "https://livenewstime.com/headlines/"
+                  } ],
+                  "date_added": "13352100746491296",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "29e396d2-e31a-4aca-af38-b2dc339dd2d8",
+                  "id": "33",
+                  "name": "CNN streams",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13250747837000000",
+                     "date_last_used": "0",
+                     "guid": "bcd147d0-ecd5-4179-9722-05b336560ef6",
+                     "id": "39",
+                     "name": "Any2Djvu: The Free On Line DjVu Conversion Service - DjVu.org",
+                     "type": "url",
+                     "url": "http://www.djvu.org/any2djvu/"
+                  }, {
+                     "date_added": "13250747837000000",
+                     "date_last_used": "0",
+                     "guid": "98499064-cf89-449b-a9f9-2a454a64bd2b",
+                     "id": "40",
+                     "name": "PDF to DjVu: The fastest Way to convert PDF to DjVu online",
+                     "type": "url",
+                     "url": "https://pdf2djvu.com/"
+                  } ],
+                  "date_added": "13352100746491439",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "5d8fb253-f50e-4091-af6c-99aad8cb64d4",
+                  "id": "38",
+                  "name": "Pdf to DjVu",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13268099819000000",
+                     "date_last_used": "0",
+                     "guid": "fb9df211-126a-4bc6-93f5-88cc7973e118",
+                     "id": "42",
+                     "name": "connect to bluetooth",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/201681/failed-to-apply-network-settings"
+                  }, {
+                     "date_added": "13272250435000000",
+                     "date_last_used": "0",
+                     "guid": "74bd5398-0ec8-4d97-8372-d6a7e1bf1a76",
+                     "id": "43",
+                     "name": "Color schemes",
+                     "type": "url",
+                     "url": "https://www.unm.edu/~tbeach/IT145/color.html"
+                  }, {
+                     "date_added": "13273798571000000",
+                     "date_last_used": "0",
+                     "guid": "5792d5c6-16ed-40e9-9580-06528d56c18c",
+                     "id": "44",
+                     "name": "permissions - Authentication agent and i3wm - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/799125/authentication-agent-and-i3wm"
+                  }, {
+                     "date_added": "13276665187000000",
+                     "date_last_used": "0",
+                     "guid": "19a42bc5-fe4c-4ea7-bab7-49724098a77f",
+                     "id": "45",
+                     "name": "Install dual boot ubuntu with windows 10 and RAID on - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/963087/install-dual-boot-ubuntu-with-windows-10-and-raid-on"
+                  }, {
+                     "date_added": "13278359041000000",
+                     "date_last_used": "0",
+                     "guid": "cd2ca4dc-d7ae-4b06-8563-2442bb8db5a8",
+                     "id": "46",
+                     "name": "GitHub - olemartinorg/i3-alternating-layout: Scripts to open new windows in i3wm using alternating layouts (splith/splitv) for each new window",
+                     "type": "url",
+                     "url": "https://github.com/olemartinorg/i3-alternating-layout"
+                  }, {
+                     "date_added": "13279691813000000",
+                     "date_last_used": "0",
+                     "guid": "1110bfae-30cc-4738-909f-bff402cf3b0c",
+                     "id": "47",
+                     "name": "How to Clone Your Linux Hard Drive: 4 Methods",
+                     "type": "url",
+                     "url": "https://www.makeuseof.com/tag/2-methods-to-clone-your-linux-hard-drive/"
+                  }, {
+                     "date_added": "13279696504000000",
+                     "date_last_used": "0",
+                     "guid": "fd1b6234-fa4e-49ae-b72e-c9aaec88693b",
+                     "id": "48",
+                     "name": "How to Set Up Bluetooth in Linux - Make Tech Easier",
+                     "type": "url",
+                     "url": "https://www.maketecheasier.com/setup-bluetooth-in-linux/"
+                  }, {
+                     "date_added": "13279701133000000",
+                     "date_last_used": "0",
+                     "guid": "20217e50-9633-45d0-9dcb-df422339b841",
+                     "id": "49",
+                     "name": "How to Set up Bluetooth and pulseaudio in Arch Linux - Jeremy Morgan's Tech Blog",
+                     "type": "url",
+                     "url": "https://www.jeremymorgan.com/tutorials/linux/how-to-bluetooth-arch-linux/"
+                  }, {
+                     "date_added": "13280026980000000",
+                     "date_last_used": "0",
+                     "guid": "186929d3-7ef7-41af-8b5a-6b6880b9eb75",
+                     "id": "50",
+                     "name": "Disk to disk clone",
+                     "type": "url",
+                     "url": "https://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/03_Disk_to_disk_clone"
+                  }, {
+                     "date_added": "13281312411000000",
+                     "date_last_used": "0",
+                     "guid": "7a4f87e8-f361-42b7-8a1d-2104191df39d",
+                     "id": "51",
+                     "name": "SOLUTION: Switch Windows 10 from RAID/IDE to AHCI operation | Triple-S Computers Blog – Louisville, KY computer repair specialist",
+                     "type": "url",
+                     "url": "https://triplescomputers.com/blog/uncategorized/solution-switch-windows-10-from-raidide-to-ahci-operation/"
+                  }, {
+                     "date_added": "13282379451000000",
+                     "date_last_used": "0",
+                     "guid": "57ae09ed-94a3-4fb7-b41b-84c32eb1bca5",
+                     "id": "52",
+                     "name": "Getting rid of your display mananger",
+                     "type": "url",
+                     "url": "https://blog.beardhatcode.be/2018/03/getting-rid-of-your-dm.html"
+                  }, {
+                     "date_added": "13285447570000000",
+                     "date_last_used": "0",
+                     "guid": "84a554bf-dd14-43d7-9cac-2849fe3326d3",
+                     "id": "53",
+                     "name": "Arch Linux: A ℂ𝕠𝕞𝕗𝕪 Install Guide - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=68z11VAYMS8&t=1123s"
+                  }, {
+                     "date_added": "13286527254000000",
+                     "date_last_used": "0",
+                     "guid": "884ecb2b-883b-49fb-9e81-98205d60896e",
+                     "id": "54",
+                     "name": "[SOLVED] Cron jobs / Newbie Corner / Arch Linux Forums",
+                     "type": "url",
+                     "url": "https://bbs.archlinux.org/viewtopic.php?id=175160"
+                  }, {
+                     "date_added": "13286816873000000",
+                     "date_last_used": "0",
+                     "guid": "91cc7ecc-7184-4919-9ee8-176da41a5291",
+                     "id": "55",
+                     "name": "Como cambiar la zona horaria en Linux desde una terminal - Blog - BuilderSoft NetworksBlog – BuilderSoft Networks",
+                     "type": "url",
+                     "url": "https://blog.buildersoft.com.mx/como-cambiar-la-zona-horaria-en-linux-desde-una-terminal/"
+                  }, {
+                     "date_added": "13286865397000000",
+                     "date_last_used": "0",
+                     "guid": "a093f753-a4d2-4f51-b1bf-d74c6b780e7e",
+                     "id": "56",
+                     "name": "[SOLVED] USB drives not show up in file manager. / Newbie Corner / Arch Linux Forums",
+                     "type": "url",
+                     "url": "https://bbs.archlinux.org/viewtopic.php?id=200960"
+                  }, {
+                     "date_added": "13286946554000000",
+                     "date_last_used": "0",
+                     "guid": "9d6540c2-2af1-41d5-87e0-524fb374beec",
+                     "id": "57",
+                     "name": "How to Change the Default crontab Editor",
+                     "type": "url",
+                     "url": "https://www.howtogeek.com/410995/how-to-change-the-default-crontab-editor/"
+                  }, {
+                     "date_added": "13288047496000000",
+                     "date_last_used": "0",
+                     "guid": "a207c413-f9e0-456b-a7ca-6000f35a1b7c",
+                     "id": "58",
+                     "name": "Enable and setup Bluetooth devices – Discovery",
+                     "type": "url",
+                     "url": "https://discovery.endeavouros.com/bluetooth/bluetooth/2021/03/"
+                  }, {
+                     "date_added": "13288673638000000",
+                     "date_last_used": "0",
+                     "guid": "59dd5aaa-ac18-40bb-ae88-ab6b4736af0b",
+                     "id": "59",
+                     "name": "Arch Linux - How to run a cron job? - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/261864/arch-linux-how-to-run-a-cron-job#:~:text=There%20is%20no%20crond.,system%20uses%20systemd%2FTimers%20instead."
+                  }, {
+                     "date_added": "13288822541000000",
+                     "date_last_used": "0",
+                     "guid": "801f95af-f205-403b-a6e9-32580938acc4",
+                     "id": "60",
+                     "name": "How to solve the \"unable to lock database\" or \"failed to synchronize any databases\" errors - Technical Issues and Assistance / Tutorials - Manjaro Linux Forum",
+                     "type": "url",
+                     "url": "https://archived.forum.manjaro.org/t/how-to-solve-the-unable-to-lock-database-or-failed-to-synchronize-any-databases-errors/3939"
+                  }, {
+                     "date_added": "13289031166000000",
+                     "date_last_used": "0",
+                     "guid": "46c24603-2de6-42dc-8974-21d4c892520e",
+                     "id": "61",
+                     "name": "Nvidia driver installation : archlinux",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/archlinux/comments/1h2uqw/nvidia_driver_installation/"
+                  }, {
+                     "date_added": "13291233234000000",
+                     "date_last_used": "0",
+                     "guid": "eb6aa575-8212-4c3e-9e7e-293d83b9df9c",
+                     "id": "62",
+                     "name": "How to put the keyboard in Spanish in Arch Linux | Linux Addicts",
+                     "type": "url",
+                     "url": "https://www.linuxadictos.com/en/como-poner-el-teclado-en-espanol-en-arch-linux.html"
+                  }, {
+                     "date_added": "13291426480000000",
+                     "date_last_used": "0",
+                     "guid": "e51e9772-c099-4e10-9f80-183716cece50",
+                     "id": "63",
+                     "name": "The fish Shell",
+                     "type": "url",
+                     "url": "https://mvolkmann.github.io/fish-article/#:~:text=To%20change%20the%20prompt%2C%20select,%2C%20don't%20do%20this!"
+                  }, {
+                     "date_added": "13291622813000000",
+                     "date_last_used": "0",
+                     "guid": "245f78b9-57e7-4cbb-b06c-485de3661381",
+                     "id": "64",
+                     "name": "update keyring",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/574493/sudo-pacman-syu-fails-with-error-failed-to-commit-transaction-invalid-or-cor"
+                  }, {
+                     "date_added": "13292904680000000",
+                     "date_last_used": "0",
+                     "guid": "2273c718-9c0d-43dd-a763-3c28481eddd7",
+                     "id": "65",
+                     "name": "systemd-vconsole-setup.service",
+                     "type": "url",
+                     "url": "https://www.freedesktop.org/software/systemd/man/systemd-vconsole-setup.service.html"
+                  }, {
+                     "date_added": "13292905903000000",
+                     "date_last_used": "0",
+                     "guid": "ac00bd7d-e0be-477a-bb99-73cf491e81ce",
+                     "id": "66",
+                     "name": "arch setup look for hooks to set keymap",
+                     "type": "url",
+                     "url": "https://www.dwarmstrong.org/getting-started-arch-linux/"
+                  }, {
+                     "date_added": "13293242047000000",
+                     "date_last_used": "0",
+                     "guid": "0e7a9904-ce98-4efb-bd31-db29171989bf",
+                     "id": "67",
+                     "name": "macos - Fish Interactive Shell full path - Stack Overflow",
+                     "type": "url",
+                     "url": "https://stackoverflow.com/questions/866989/fish-interactive-shell-full-path"
+                  }, {
+                     "date_added": "13293839424000000",
+                     "date_last_used": "0",
+                     "guid": "d8fb47f3-c565-4673-803a-b67c365af3b9",
+                     "id": "68",
+                     "name": "grub2 - How do I update GRUB in Arch Linux - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/111889/how-do-i-update-grub-in-arch-linux"
+                  }, {
+                     "date_added": "13296110337000000",
+                     "date_last_used": "0",
+                     "guid": "6241f9e1-8002-41cd-844f-cf775a57e2a9",
+                     "id": "69",
+                     "name": "Adwaita Dark is not installed on a GNOME 41 installation. : gnome",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/gnome/comments/rl687c/adwaita_dark_is_not_installed_on_a_gnome_41/"
+                  }, {
+                     "date_added": "13296350577000000",
+                     "date_last_used": "0",
+                     "guid": "6bba2bcb-d266-434e-98ac-ae80aabea454",
+                     "id": "70",
+                     "name": "Automatically change Sound Input Output device - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/158241/automatically-change-sound-input-output-device"
+                  }, {
+                     "date_added": "13296444404000000",
+                     "date_last_used": "0",
+                     "guid": "4c3fe4a0-498a-4428-a7e7-bc7ee032a0c5",
+                     "id": "71",
+                     "name": "command to find files by searching only part of their names? - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/621063/command-to-find-files-by-searching-only-part-of-their-names"
+                  }, {
+                     "date_added": "13296979450000000",
+                     "date_last_used": "0",
+                     "guid": "4ec4f787-4ffd-4e42-b45a-a244c362ecda",
+                     "id": "72",
+                     "name": "How to install and configure NetworkManager and network-manager-applet on Arch Linux with Gnome3 | Linux M0nk3ys",
+                     "type": "url",
+                     "url": "https://evilshit.wordpress.com/2012/09/15/how-to-make-networkmanager-and-network-manager-applet-work-on-arch-linux-with-gnome3/"
+                  }, {
+                     "date_added": "13297275533000000",
+                     "date_last_used": "0",
+                     "guid": "f41cdb66-8543-4745-9496-507ed0659b35",
+                     "id": "73",
+                     "name": "How to re-install Grub on Arch Linux",
+                     "type": "url",
+                     "url": "https://www.addictivetips.com/ubuntu-linux-tips/re-install-grub-on-arch-linux/"
+                  }, {
+                     "date_added": "13297281200000000",
+                     "date_last_used": "0",
+                     "guid": "ab4750c9-cc52-4215-bdda-2daed6b45343",
+                     "id": "74",
+                     "name": "systemd - How to clear journalctl - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/139513/how-to-clear-journalctl"
+                  }, {
+                     "date_added": "13300890265000000",
+                     "date_last_used": "0",
+                     "guid": "9b106450-675a-4565-a3f8-f0e389f0dc1d",
+                     "id": "75",
+                     "name": "Limit the size of .log files & the journal - Manjaro",
+                     "type": "url",
+                     "url": "https://wiki.manjaro.org/index.php/Limit_the_size_of_.log_files_%26_the_journal"
+                  }, {
+                     "date_added": "13300890581000000",
+                     "date_last_used": "0",
+                     "guid": "cca31f9a-23e3-4bb1-b92a-f046a3a85501",
+                     "id": "76",
+                     "name": "command line - Systemd logs (`journalctl`) are too large and slow - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/1012912/systemd-logs-journalctl-are-too-large-and-slow"
+                  }, {
+                     "date_added": "13301438463000000",
+                     "date_last_used": "0",
+                     "guid": "ea374b4a-abe6-4b3b-9122-481e774840f9",
+                     "id": "77",
+                     "name": "How to Use ALSA Utilities to Manage Linux Audio from the Terminal - Make Tech Easier",
+                     "type": "url",
+                     "url": "https://www.maketecheasier.com/alsa-utilities-manage-linux-audio-command-line/"
+                  }, {
+                     "date_added": "13301439238000000",
+                     "date_last_used": "0",
+                     "guid": "de0a9968-fe2b-4cf0-96be-d04865a47484",
+                     "id": "78",
+                     "name": "Set audio volume from the command line - Seb's IT blog",
+                     "type": "url",
+                     "url": "https://megamorf.gitlab.io/2018/12/16/set-audio-volume-from-command-line/"
+                  }, {
+                     "date_added": "13302705816000000",
+                     "date_last_used": "0",
+                     "guid": "d0dcd3d5-124f-432e-9b56-c0ef309597a0",
+                     "id": "79",
+                     "name": "The Micro Text Editor – UnkertMedia.com",
+                     "type": "url",
+                     "url": "https://unkertmedia.com/the-micro-text-editor/"
+                  }, {
+                     "date_added": "13303525385000000",
+                     "date_last_used": "0",
+                     "guid": "225253bf-9858-4b15-b3ae-04f9dd3970c9",
+                     "id": "80",
+                     "name": "Pixels Per Inch PPI Calculator",
+                     "type": "url",
+                     "url": "https://www.calculatorsoup.com/calculators/technology/ppi-calculator.php"
+                  }, {
+                     "date_added": "13303632241000000",
+                     "date_last_used": "0",
+                     "guid": "ad2584f9-3be1-4888-a08a-6d5789ceaea4",
+                     "id": "81",
+                     "name": "Laptop Keyboard Layout Identification Guide | Keyshorts Blog",
+                     "type": "url",
+                     "url": "https://keyshorts.com/blogs/blog/44712961-how-to-identify-laptop-keyboard-localization#belgian"
+                  }, {
+                     "date_added": "13303684845000000",
+                     "date_last_used": "0",
+                     "guid": "984e53eb-dadb-4a7e-9069-bd8d5ca71747",
+                     "id": "82",
+                     "name": "[INFO] Adding a swapfile after a clean installation without swap partition - ArcoLinux -D -B Forum",
+                     "type": "url",
+                     "url": "https://arcolinuxforum.com/viewtopic.php?t=1407"
+                  }, {
+                     "date_added": "13304921566000000",
+                     "date_last_used": "0",
+                     "guid": "c62770fe-a6e0-40f9-8811-d2d4c3bf1a3d",
+                     "id": "83",
+                     "name": "mouse cursor remains 'waiting' after closing last tile - i3 FAQ",
+                     "type": "url",
+                     "url": "https://faq.i3wm.org/question/118/mouse-cursor-remains-waiting-after-closing-last-tile.1.html"
+                  }, {
+                     "date_added": "13306609490000000",
+                     "date_last_used": "0",
+                     "guid": "b49e9de9-6410-4044-a601-1ce1e61bee68",
+                     "id": "84",
+                     "name": "How to set up Systemd-boot on a new Arch Linux system",
+                     "type": "url",
+                     "url": "https://www.addictivetips.com/ubuntu-linux-tips/set-up-systemd-boot-on-arch-linux/"
+                  }, {
+                     "date_added": "13306609802000000",
+                     "date_last_used": "0",
+                     "guid": "e9b4416d-79a2-4501-bc13-80de14105b89",
+                     "id": "85",
+                     "name": "[Solved] How-To replace GRUB boot loader with systemd-boot manager / Newbie Corner / Arch Linux Forums",
+                     "type": "url",
+                     "url": "https://bbs.archlinux.org/viewtopic.php?id=223909"
+                  }, {
+                     "date_added": "13309113980000000",
+                     "date_last_used": "0",
+                     "guid": "605b5c72-ec5a-416b-8f0d-7d4614f1f8e9",
+                     "id": "86",
+                     "name": "Terminal Color Schemes (Part 1) « Blog « extrema.is",
+                     "type": "url",
+                     "url": "https://www.extrema.is/blog/2022/02/21/terminal-color-schemes-part-1"
+                  }, {
+                     "date_added": "13309719901000000",
+                     "date_last_used": "0",
+                     "guid": "1cd8f7dc-6ae2-4e42-bcff-bd0e6b110f75",
+                     "id": "87",
+                     "name": "Starship",
+                     "type": "url",
+                     "url": "https://starship.rs/presets/pure-preset.html"
+                  }, {
+                     "date_added": "13309799427000000",
+                     "date_last_used": "0",
+                     "guid": "776c1f96-ad6c-4a09-884e-f794b0ecfeae",
+                     "id": "88",
+                     "name": "Ranger Cheatsheet",
+                     "type": "url",
+                     "url": "https://gist.github.com/heroheman/aba73e47443340c35526755ef79647eb"
+                  }, {
+                     "date_added": "13309827742000000",
+                     "date_last_used": "0",
+                     "guid": "3bf8cf0d-957f-496f-97a6-843a4b07c946",
+                     "id": "89",
+                     "name": "Configuration | Starship",
+                     "type": "url",
+                     "url": "https://starship.rs/config/#time"
+                  }, {
+                     "date_added": "13309839352000000",
+                     "date_last_used": "0",
+                     "guid": "657d7489-014b-4099-aafe-682c75561f3b",
+                     "id": "90",
+                     "name": "How to open a file with another app without affecting the ranger status? : ranger",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/ranger/comments/k6kkwr/how_to_open_a_file_with_another_app_without/"
+                  }, {
+                     "date_added": "13311091320000000",
+                     "date_last_used": "0",
+                     "guid": "30af4d56-6f26-4b94-ac5e-5e55ed910916",
+                     "id": "91",
+                     "name": "GitHub - eliep/i3-layouts: Dynamic layouts for i3wm",
+                     "type": "url",
+                     "url": "https://github.com/eliep/i3-layouts#installation"
+                  }, {
+                     "date_added": "13312008396000000",
+                     "date_last_used": "0",
+                     "guid": "d18cc5c9-0f12-4336-903d-efe7f56f2474",
+                     "id": "92",
+                     "name": "Cron job between certain hours",
+                     "type": "url",
+                     "url": "https://crontab.guru/between-certain-hours"
+                  }, {
+                     "date_added": "13312250858000000",
+                     "date_last_used": "0",
+                     "guid": "f4279767-6661-4725-a294-443848490655",
+                     "id": "93",
+                     "name": "GitHub - gpakosz/.tmux: 🇫🇷 Oh my tmux! My self-contained, pretty & versatile tmux configuration made with ❤️",
+                     "type": "url",
+                     "url": "https://github.com/gpakosz/.tmux"
+                  }, {
+                     "date_added": "13312256115000000",
+                     "date_last_used": "0",
+                     "guid": "2a7bb02c-f6c2-4f33-a97e-40869fccdbaa",
+                     "id": "94",
+                     "name": "Installing Plugins in tmux",
+                     "type": "url",
+                     "url": "https://linuxhint.com/installing-plugins-tmux/"
+                  }, {
+                     "date_added": "13312346708000000",
+                     "date_last_used": "0",
+                     "guid": "13b00ce3-a65e-4342-b21b-df680b57f9eb",
+                     "id": "95",
+                     "name": "Arch Linux with BTRFS Installation (Base) | Tech it Out",
+                     "type": "url",
+                     "url": "https://www.nishantnadkarni.tech/posts/arch_installation/"
+                  }, {
+                     "date_added": "13312850452000000",
+                     "date_last_used": "0",
+                     "guid": "84a62e82-0e3e-4b4e-a37e-2c47ecc5311e",
+                     "id": "96",
+                     "name": "dmesg Linux Command {Syntax, Options and Examples}",
+                     "type": "url",
+                     "url": "https://phoenixnap.com/kb/dmesg-linux#:~:text=The%20dmesg%20command%20is%20a,take%20place%20during%20system%20startup."
+                  }, {
+                     "date_added": "13313051938000000",
+                     "date_last_used": "0",
+                     "guid": "2dceab1f-298f-48b0-a09a-c210b70bef88",
+                     "id": "97",
+                     "name": "How To Read and Set Environmental and Shell Variables on Linux | DigitalOcean",
+                     "type": "url",
+                     "url": "https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux"
+                  }, {
+                     "date_added": "13313271140000000",
+                     "date_last_used": "0",
+                     "guid": "bfe3ab24-9539-48be-8754-62ad219b90b7",
+                     "id": "98",
+                     "name": "Why you should be using fzf, the command line fuzzy finder",
+                     "type": "url",
+                     "url": "https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/"
+                  }, {
+                     "date_added": "13313912761000000",
+                     "date_last_used": "0",
+                     "guid": "1c7b239b-a70c-427e-973e-66bc73ae4238",
+                     "id": "99",
+                     "name": "SL-RU/ranger_udisk_menu: This script draws menu to choose, mount and unmount drives using udisksctl and ncurses for ranger file manager",
+                     "type": "url",
+                     "url": "https://github.com/SL-RU/ranger_udisk_menu"
+                  }, {
+                     "date_added": "13314511487000000",
+                     "date_last_used": "0",
+                     "guid": "870beeb1-223a-4172-9b3d-ad2c8cc10564",
+                     "id": "100",
+                     "name": "install arch with btrfs - Google Search",
+                     "type": "url",
+                     "url": "https://www.google.com/search?q=install+arch+with+btrfs&oq=install+arch+with+btfs&aqs=chrome.1.69i57j0i13i512.12478j0j4&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0cb3e997,vid:Xynotc9BKe8"
+                  }, {
+                     "date_added": "13314513108000000",
+                     "date_last_used": "0",
+                     "guid": "25210ac3-4164-4c89-8463-d46fdec26154",
+                     "id": "101",
+                     "name": "command line - Running programs in the background from terminal - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/106351/running-programs-in-the-background-from-terminal"
+                  }, {
+                     "date_added": "13314663239000000",
+                     "date_last_used": "0",
+                     "guid": "aca9be6a-e1b7-40cf-8430-e9bd3c254879",
+                     "id": "102",
+                     "name": "fish: Tutorial",
+                     "type": "url",
+                     "url": "https://fishshell.com/docs/3.0/tutorial.html"
+                  }, {
+                     "date_added": "13314903071000000",
+                     "date_last_used": "0",
+                     "guid": "e2625ff7-505b-4df4-9541-9ae391303360",
+                     "id": "103",
+                     "name": "Create a pacman hook to detect .pacnew files - Contributions / Tutorials - Manjaro Linux Forum",
+                     "type": "url",
+                     "url": "https://forum.manjaro.org/t/howto-create-a-pacman-hook-to-detect-pacnew-files/50499/10"
+                  }, {
+                     "date_added": "13315168464000000",
+                     "date_last_used": "0",
+                     "guid": "fdbf87c3-df52-4e41-86ad-cb7ec4dcead0",
+                     "id": "104",
+                     "name": "arch linux - xdg-open default applications behavior - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/77136/xdg-open-default-applications-behavior"
+                  }, {
+                     "date_added": "13315169304000000",
+                     "date_last_used": "0",
+                     "guid": "23f8622a-591d-4ad8-848a-229e87034293",
+                     "id": "105",
+                     "name": "Configuring default applications for xdg-open",
+                     "type": "url",
+                     "url": "https://200ok.ch/posts/2022-01-12_configuring_default_applications_for_xdg_open.html"
+                  }, {
+                     "date_added": "13317781248000000",
+                     "date_last_used": "0",
+                     "guid": "efdba8e0-109a-410d-b68a-460252a836a5",
+                     "id": "106",
+                     "name": "Shell integration - kitty",
+                     "type": "url",
+                     "url": "https://sw.kovidgoyal.net/kitty/shell-integration/"
+                  }, {
+                     "date_added": "13318131428000000",
+                     "date_last_used": "0",
+                     "guid": "869685f1-be2f-423a-8528-6e5b16429854",
+                     "id": "107",
+                     "name": "GitHub - PatrickF1/fzf.fish: Augment your fish command line with fzf key bindings.",
+                     "type": "url",
+                     "url": "https://github.com/PatrickF1/fzf.fish"
+                  }, {
+                     "date_added": "13318285401000000",
+                     "date_last_used": "0",
+                     "guid": "08728d2e-ccce-4755-bf18-f5c50a01ba8e",
+                     "id": "108",
+                     "name": "Create zRam a Memory Compression on Arch Linux",
+                     "type": "url",
+                     "url": "https://techrapiduk.blogspot.com/2017/04/create-zram-memory-compression-on-arch-linux.html"
+                  }, {
+                     "date_added": "13318386927000000",
+                     "date_last_used": "0",
+                     "guid": "adbbc5e7-d042-4b75-873c-03ae1451d211",
+                     "id": "109",
+                     "name": "GitHub - bulletmark/libinput-gestures: Actions gestures on your touchpad using libinput",
+                     "type": "url",
+                     "url": "https://github.com/bulletmark/libinput-gestures"
+                  }, {
+                     "date_added": "13318818754000000",
+                     "date_last_used": "0",
+                     "guid": "c53d23b0-7c42-47c3-a20a-ba3827e7f5e2",
+                     "id": "110",
+                     "name": "GitHub - Canop/broot: A new way to see and navigate directory trees : https://dystroy.org/broot",
+                     "type": "url",
+                     "url": "https://github.com/Canop/broot"
+                  }, {
+                     "date_added": "13318827797000000",
+                     "date_last_used": "0",
+                     "guid": "30372d37-785a-4122-8f7b-a73e6930c2e2",
+                     "id": "111",
+                     "name": "Tips & Tricks - Broot",
+                     "type": "url",
+                     "url": "https://dystroy.org/broot/documentation/tricks/"
+                  }, {
+                     "date_added": "13318828032000000",
+                     "date_last_used": "0",
+                     "guid": "680b5605-77a7-40e9-a223-ea451cc93461",
+                     "id": "112",
+                     "name": "Usage - Broot",
+                     "type": "url",
+                     "url": "https://dystroy.org/broot/documentation/usage/"
+                  }, {
+                     "date_added": "13318900938000000",
+                     "date_last_used": "0",
+                     "guid": "8cd06656-03bd-4b91-bd59-b899cdb345d3",
+                     "id": "113",
+                     "name": "GitHub - trizen/pipe-viewer: A lightweight YouTube client for Linux, without requiring an API key.",
+                     "type": "url",
+                     "url": "https://github.com/trizen/pipe-viewer"
+                  }, {
+                     "date_added": "13318991831000000",
+                     "date_last_used": "0",
+                     "guid": "0d615e83-e0dc-4a5d-9ac4-9b793b9b3908",
+                     "id": "114",
+                     "name": "AUR (en) - youtube-viewer",
+                     "type": "url",
+                     "url": "https://aur.archlinux.org/packages/youtube-viewer"
+                  }, {
+                     "date_added": "13319005029000000",
+                     "date_last_used": "0",
+                     "guid": "0fd104a4-2255-4c15-ab37-1d15fdd81afd",
+                     "id": "115",
+                     "name": "Reference - The input - Broot",
+                     "type": "url",
+                     "url": "https://dystroy.org/broot/input/"
+                  }, {
+                     "date_added": "13319533699000000",
+                     "date_last_used": "0",
+                     "guid": "44a1f386-0a31-4260-b7e3-759aea137e93",
+                     "id": "116",
+                     "name": "PulseAudio/Troubleshooting - ArchWiki",
+                     "type": "url",
+                     "url": "https://wiki.archlinux.org/title/PulseAudio/Troubleshooting"
+                  }, {
+                     "date_added": "13319772180000000",
+                     "date_last_used": "0",
+                     "guid": "a7d46ef3-3953-4994-bec3-5c482e873962",
+                     "id": "117",
+                     "name": "Instalar los drivers de nvidia en Arch linux | Fran Aramayo",
+                     "type": "url",
+                     "url": "http://www.franaramayo.com/instalar-los-drivers-de-nvidia-en-arch-linux/"
+                  }, {
+                     "date_added": "13320008945000000",
+                     "date_last_used": "0",
+                     "guid": "5d1f2b21-a8b3-4570-911a-debd0f31c89d",
+                     "id": "118",
+                     "name": "How to Compress and Extract Files Using the tar Command on Linux",
+                     "type": "url",
+                     "url": "https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/"
+                  }, {
+                     "date_added": "13320081190000000",
+                     "date_last_used": "0",
+                     "guid": "64185148-e2bf-456e-b934-5351620397f1",
+                     "id": "119",
+                     "name": "Clone partition on Linux - Linux Tutorials - Learn Linux Configuration",
+                     "type": "url",
+                     "url": "https://linuxconfig.org/clone-partition-on-linux"
+                  }, {
+                     "date_added": "13320081209000000",
+                     "date_last_used": "0",
+                     "guid": "c0fdb1db-23e1-4229-90a0-d16d3cd4365f",
+                     "id": "120",
+                     "name": "boot - backup /home folder on different drive through LiveUSB - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/847933/backup-home-folder-on-different-drive-through-liveusb"
+                  }, {
+                     "date_added": "13321976902000000",
+                     "date_last_used": "0",
+                     "guid": "9171d72e-5b93-4fda-8b87-885ae174a170",
+                     "id": "121",
+                     "name": "Peter Babič - Arch news pacman hook tip",
+                     "type": "url",
+                     "url": "https://peterbabic.dev/blog/arch-news-pacman-hook-tip/"
+                  }, {
+                     "date_added": "13323156728000000",
+                     "date_last_used": "0",
+                     "guid": "cac3b38a-34e4-4257-966f-ec13cf28e096",
+                     "id": "122",
+                     "name": "How to rollback pacman updates in Arch Linux - Linux Tutorials - Learn Linux Configuration",
+                     "type": "url",
+                     "url": "https://linuxconfig.org/how-to-rollback-pacman-updates-in-arch-linux#:~:text=To%20downgrade%20a%20package%20to,downgrade%20to%20that%20specific%20version."
+                  }, {
+                     "date_added": "13323569793000000",
+                     "date_last_used": "0",
+                     "guid": "413e99db-5da6-4b01-918e-8f2ed8ad187f",
+                     "id": "123",
+                     "name": "GitHub - nickclyde/rofi-bluetooth: 🔷 A script that generates a rofi menu that uses bluetoothctl to connect to bluetooth devices and display status info.",
+                     "type": "url",
+                     "url": "https://github.com/nickclyde/rofi-bluetooth"
+                  }, {
+                     "date_added": "13324021407000000",
+                     "date_last_used": "0",
+                     "guid": "55b9c1d1-16ed-4c43-b69a-459bbbc27da1",
+                     "id": "124",
+                     "name": "Unlock a PDF with pdfcrack, the best option for Linux | Linux Addicts",
+                     "type": "url",
+                     "url": "https://www.linuxadictos.com/en/desbloquear-un-pdf.html"
+                  }, {
+                     "date_added": "13324055683000000",
+                     "date_last_used": "0",
+                     "guid": "1c38449a-8389-4edb-936c-032fc8e82f29",
+                     "id": "125",
+                     "name": "How to customize the SDDM display manager on Linux - Linux Tutorials - Learn Linux Configuration",
+                     "type": "url",
+                     "url": "https://linuxconfig.org/how-to-customize-the-sddm-display-manager-on-linux"
+                  }, {
+                     "date_added": "13324068781000000",
+                     "date_last_used": "0",
+                     "guid": "b88c479b-19b0-477c-b30a-4271257b692b",
+                     "id": "126",
+                     "name": "systemd/Journal - ArchWiki",
+                     "type": "url",
+                     "url": "https://wiki.archlinux.org/title/Systemd/Journal"
+                  }, {
+                     "date_added": "13324365750000000",
+                     "date_last_used": "0",
+                     "guid": "b5999d9d-a815-4dc0-80ab-b609947fce78",
+                     "id": "127",
+                     "name": "arch linux - How to install packages with Pacman from a list contained in a text file? - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/587630/how-to-install-packages-with-pacman-from-a-list-contained-in-a-text-file"
+                  }, {
+                     "date_added": "13324366424000000",
+                     "date_last_used": "0",
+                     "guid": "09c42735-0b6c-41cb-b529-6625b63b9d36",
+                     "id": "128",
+                     "name": "Dual boot Arch Linux with another Linux (os-prober) | Average Linux User",
+                     "type": "url",
+                     "url": "https://averagelinuxuser.com/dual-boot-arch-linux-with-linux/"
+                  }, {
+                     "date_added": "13324489083000000",
+                     "date_last_used": "0",
+                     "guid": "c703decc-e33c-4d1b-a22d-6c797a47a1c6",
+                     "id": "129",
+                     "name": "Keyboard input - ArchWiki",
+                     "type": "url",
+                     "url": "https://wiki.archlinux.org/title/Keyboard_input#Identifying_scancodes"
+                  }, {
+                     "date_added": "13324489124000000",
+                     "date_last_used": "0",
+                     "guid": "58421fd6-2739-4246-b948-9658a3b40023",
+                     "id": "130",
+                     "name": "Linux console/Keyboard configuration - ArchWiki",
+                     "type": "url",
+                     "url": "https://wiki.archlinux.org/title/Linux_console/Keyboard_configuration"
+                  }, {
+                     "date_added": "13324711586000000",
+                     "date_last_used": "0",
+                     "guid": "60d54ced-fe27-47bf-96ff-a8e62ad4d89d",
+                     "id": "131",
+                     "name": "Audio/Alsamixer - Ubuntu Wiki",
+                     "type": "url",
+                     "url": "https://wiki.ubuntu.com/Audio/Alsamixer"
+                  }, {
+                     "date_added": "13324930140000000",
+                     "date_last_used": "0",
+                     "guid": "9466c714-f36e-4840-9efd-f48e4166a3fd",
+                     "id": "132",
+                     "name": "permissions - How do I gain root access to my own folders when using file manager? - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/808756/how-do-i-gain-root-access-to-my-own-folders-when-using-file-manager"
+                  }, {
+                     "date_added": "13325381026000000",
+                     "date_last_used": "0",
+                     "guid": "edcf0d56-2b2c-48e2-b677-4ca53a564a6f",
+                     "id": "133",
+                     "name": "GitHub - nwg-piotr/nwg-look: GTK3 settings editor adapted to work in the sway / wlroots environment",
+                     "type": "url",
+                     "url": "https://github.com/nwg-piotr/nwg-look"
+                  }, {
+                     "date_added": "13325907520000000",
+                     "date_last_used": "0",
+                     "guid": "89b1b5bc-d559-4355-9d9c-a6df5c03b6ab",
+                     "id": "134",
+                     "name": "(1) Default applications in Arch Linux? : linuxquestions",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/linuxquestions/comments/5z3n81/default_applications_in_arch_linux/"
+                  }, {
+                     "date_added": "13326003521000000",
+                     "date_last_used": "0",
+                     "guid": "8b37fb65-0d81-463b-907e-0c0b94615d4f",
+                     "id": "135",
+                     "name": "pdfcrack(1) — Arch manual pages",
+                     "type": "url",
+                     "url": "https://man.archlinux.org/man/community/pdfcrack/pdfcrack.1.en"
+                  }, {
+                     "date_added": "13326038285000000",
+                     "date_last_used": "0",
+                     "guid": "a95837f5-a188-4097-bb46-01b81890a34c",
+                     "id": "136",
+                     "name": "(1) NYT (New York Times) Paywall Removal : Piracy",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/Piracy/comments/tozad6/nyt_new_york_times_paywall_removal/"
+                  }, {
+                     "date_added": "13326162981000000",
+                     "date_last_used": "0",
+                     "guid": "5628f4ff-a84b-41a8-81be-ed52636b5cae",
+                     "id": "137",
+                     "name": "Files · master · magnolia1234 / Bypass Paywalls Chrome Clean · GitLab",
+                     "type": "url",
+                     "url": "https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean/-/tree/master"
+                  }, {
+                     "date_added": "13327641789000000",
+                     "date_last_used": "0",
+                     "guid": "35680349-844b-4d45-8f05-f2cfa002e77e",
+                     "id": "138",
+                     "name": "(1) Drag window : hyprland",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/hyprland/comments/xwit2h/drag_window/"
+                  }, {
+                     "date_added": "13328595424000000",
+                     "date_last_used": "0",
+                     "guid": "bb4b38ed-1516-4c70-a382-d28a50dcd52f",
+                     "id": "139",
+                     "name": "GitHub - pulseaudio-equalizer-ladspa/equalizer: Pulseaudio LADSPA Equalizer",
+                     "type": "url",
+                     "url": "https://github.com/pulseaudio-equalizer-ladspa/equalizer"
+                  }, {
+                     "date_added": "13330886437000000",
+                     "date_last_used": "0",
+                     "guid": "50a9c6bd-bcd1-484f-989c-89484700f743",
+                     "id": "140",
+                     "name": "(2) nwg-shell 0.5 released w/ Hyprland support OOTB : hyprland",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/hyprland/comments/145nga4/nwgshell_05_released_w_hyprland_support_ootb/?%24deep_link=true&correlation_id=8a7548eb-d6ef-44ca-90ef-e80eb305c773&post_fullname=t3_145nga4&post_index=1&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=1134128782413313465&utm_medium=Email%20Amazon%20SES&_branch_referrer=H4sIAAAAAAAAA22Q3WrDMAxGnya7a5vGTpsNyhiMvYZQbSUx9R%2B2Qra3n7KuuxrYcDgfnyU8M%2Bf6cjgUstbxHnPeexdvB5Vfm06rfCHA%2BiSYiptcRA9L8Zd5azXqrek%2B5Kzruv%2FtmxREFLnzVy4eoxUUGShyFTzqPk6oheI61Zm8h7aHQp6wkoUVHjWoS86pMKTE122MkknaEmXY9mvUO5eFmu5kUpE6sksRnBU%2F4LnXA1139kTjTmuDu%2BdWiIaWrqrtzfmspJdTZRgX7yMG2p5T8LfcPXTR0qckRxGFRiEK6DxYN1HluwSDIaOb4v9pTUsx9MhELhzApMjyHWJ%2FxrBjT99zPQ4shwEAAA%3D%3D"
+                  }, {
+                     "date_added": "13332036203000000",
+                     "date_last_used": "0",
+                     "guid": "7f720f4e-a90d-4c96-86d7-c0d1e0705a5c",
+                     "id": "141",
+                     "name": "How To Remove Everything Except The Base System In Arch Linux - OSTechNix",
+                     "type": "url",
+                     "url": "https://ostechnix.com/how-to-remove-everything-except-the-base-system-in-arch-linux/"
+                  }, {
+                     "date_added": "13332043697000000",
+                     "date_last_used": "0",
+                     "guid": "b4446f21-4a34-4006-b257-5f0af56a74c1",
+                     "id": "142",
+                     "name": "audio - How do I enable sound in this fresh Arch install? - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/104270/how-do-i-enable-sound-in-this-fresh-arch-install"
+                  }, {
+                     "date_added": "13332701046000000",
+                     "date_last_used": "0",
+                     "guid": "d7061133-f75b-4289-be54-d962fce77c29",
+                     "id": "143",
+                     "name": "(2) How to move/resize windows with only the keyboard? : hyprland",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/hyprland/comments/11c2lie/how_to_moveresize_windows_with_only_the_keyboard/"
+                  }, {
+                     "date_added": "13333472590000000",
+                     "date_last_used": "0",
+                     "guid": "c32aa43b-fbd2-4112-ba39-477be7b9117f",
+                     "id": "144",
+                     "name": "(3) How to send fzf output to mpv, handle spaces and any special characters? : commandline",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/commandline/comments/tyo7b4/how_to_send_fzf_output_to_mpv_handle_spaces_and/"
+                  }, {
+                     "date_added": "13333700266000000",
+                     "date_last_used": "0",
+                     "guid": "0c8eb7ed-4dab-4fff-a98e-46717e897af2",
+                     "id": "145",
+                     "name": "Color schemes · junegunn/fzf Wiki · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/junegunn/fzf/wiki/Color-schemes"
+                  }, {
+                     "date_added": "13334421643000000",
+                     "date_last_used": "0",
+                     "guid": "9a535bcb-a30d-4356-9608-a5d98b68b98e",
+                     "id": "146",
+                     "name": "Restart i3 with shell [SOLVED] - i3 FAQ",
+                     "type": "url",
+                     "url": "https://faq.i3wm.org/question/783/restart-i3-with-shell-solved/index.html"
+                  }, {
+                     "date_added": "13334645103000000",
+                     "date_last_used": "0",
+                     "guid": "fc89c2a6-767c-4ddf-9c6b-6d2e68dc95ad",
+                     "id": "147",
+                     "name": "(1) Using multiple kernels with systemd-boot : linuxquestions",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/linuxquestions/comments/empxe4/using_multiple_kernels_with_systemdboot/"
+                  }, {
+                     "date_added": "13334650237000000",
+                     "date_last_used": "0",
+                     "guid": "ba5fd8e1-4019-47ce-b500-f10570e5303e",
+                     "id": "148",
+                     "name": "Linux ‘tree Command’ Usage Examples for Beginners",
+                     "type": "url",
+                     "url": "https://www.tecmint.com/linux-tree-command-examples/"
+                  }, {
+                     "date_added": "13334650380000000",
+                     "date_last_used": "0",
+                     "guid": "027e4f5e-cf42-4940-bd63-c179095bb9d2",
+                     "id": "149",
+                     "name": "How to Master the Linux Tree Command - VITUX",
+                     "type": "url",
+                     "url": "https://vitux.com/linux-tree-command/"
+                  }, {
+                     "date_added": "13335645525000000",
+                     "date_last_used": "0",
+                     "guid": "d1e4de99-4e1b-4662-b98a-b0de9882eeda",
+                     "id": "150",
+                     "name": "command line - How to listen radio from terminal? - Ask Ubuntu",
+                     "type": "url",
+                     "url": "https://askubuntu.com/questions/193737/how-to-listen-radio-from-terminal"
+                  }, {
+                     "date_added": "13335836596000000",
+                     "date_last_used": "0",
+                     "guid": "2d737a34-3e73-4cc7-b83a-83ca6b4cba91",
+                     "id": "151",
+                     "name": "GitHub - mps-youtube/yewtube: yewtube, forked from mps-youtube , is a Terminal based YouTube player and downloader. No Youtube API key required.",
+                     "type": "url",
+                     "url": "https://github.com/mps-youtube/yewtube"
+                  }, {
+                     "date_added": "13335983383000000",
+                     "date_last_used": "0",
+                     "guid": "01c30e79-2535-4601-9d37-7b8923347d34",
+                     "id": "152",
+                     "name": "How to set syntax for config files without extension? · Issue #2080 · zyedidia/micro · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/zyedidia/micro/issues/2080"
+                  }, {
+                     "date_added": "13336029522000000",
+                     "date_last_used": "0",
+                     "guid": "27b48508-7aa9-4bf2-a824-512d1b34343f",
+                     "id": "153",
+                     "name": "Introduction to Ranger file manager - Linux Tutorials - Learn Linux Configuration",
+                     "type": "url",
+                     "url": "https://linuxconfig.org/introduction-to-ranger-file-manager"
+                  }, {
+                     "date_added": "13336032796000000",
+                     "date_last_used": "0",
+                     "guid": "bfa8852b-1c61-44a9-8ed2-1b183b1601f4",
+                     "id": "154",
+                     "name": "How to Use ALSA Utilities to Manage Linux Audio from the Terminal - Make Tech Easier",
+                     "type": "url",
+                     "url": "https://www.google.com/search?q=you&oq=you&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAjIGCAQQRRhBMgYIBRBFGEEyBggGEEUYQdIBCDE1NzdqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8"
+                  }, {
+                     "date_added": "13336333017000000",
+                     "date_last_used": "0",
+                     "guid": "fd7a978a-b8d1-4c02-ab8a-307b1b55ba54",
+                     "id": "155",
+                     "name": "How to Use DD Show Progress Command in Linux? {2 Options Explained}",
+                     "type": "url",
+                     "url": "https://phoenixnap.com/kb/dd-show-progress"
+                  }, {
+                     "date_added": "13336363299000000",
+                     "date_last_used": "0",
+                     "guid": "383955f5-eeed-41ee-b85f-b4999c6606cd",
+                     "id": "156",
+                     "name": "GitHub - joaquintorres/autosubsync-mpv: Automatic subtitle synchronization script for mpv media player",
+                     "type": "url",
+                     "url": "https://github.com/joaquintorres/autosubsync-mpv"
+                  }, {
+                     "date_added": "13336377714000000",
+                     "date_last_used": "0",
+                     "guid": "8e6abbaf-6ace-4518-8296-e3fc83845989",
+                     "id": "157",
+                     "name": "(1) No blur on hyprland? : hyprland",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/hyprland/comments/10q5t3e/no_blur_on_hyprland/"
+                  }, {
+                     "date_added": "13336550156000000",
+                     "date_last_used": "0",
+                     "guid": "abb8cbed-3346-413f-8430-e81d6eb79c6c",
+                     "id": "158",
+                     "name": "A Practical Guide to fzf: Building a File Explorer",
+                     "type": "url",
+                     "url": "https://thevaluable.dev/practical-guide-fzf-example/"
+                  }, {
+                     "date_added": "13336591295000000",
+                     "date_last_used": "0",
+                     "guid": "21648061-faee-42da-97b2-41ea4d21ee55",
+                     "id": "159",
+                     "name": "micro/runtime/help/tutorial.md at master · zyedidia/micro · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/zyedidia/micro/blob/master/runtime/help/tutorial.md"
+                  }, {
+                     "date_added": "13336784526000000",
+                     "date_last_used": "0",
+                     "guid": "53600f7a-3d7a-4787-a578-603c900f69f2",
+                     "id": "160",
+                     "name": "[Fixed] Blurry Firefox and Chrome Text Under Wayland",
+                     "type": "url",
+                     "url": "https://www.debugpoint.com/blurry-text-chrome-firefox-wayland/#Fixing_Blurry_text_on_Google_Chrome"
+                  }, {
+                     "date_added": "13337019835000000",
+                     "date_last_used": "0",
+                     "guid": "960a5caa-1f36-46a9-ae68-96915dd9f6bb",
+                     "id": "161",
+                     "name": "MPV Keyboard Shortcuts - Make Tech Easier",
+                     "type": "url",
+                     "url": "https://www.maketecheasier.com/cheatsheet/mpv-keyboard-shortcuts/"
+                  }, {
+                     "date_added": "13337371333000000",
+                     "date_last_used": "0",
+                     "guid": "0240a13b-fd4f-4f10-9d79-68432c4299bf",
+                     "id": "162",
+                     "name": "No option to limit fzf to the current directory? · Issue #980 · junegunn/fzf · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/junegunn/fzf/issues/980"
+                  }, {
+                     "date_added": "13337393137000000",
+                     "date_last_used": "0",
+                     "guid": "575e2532-3e9d-41a6-82eb-0add46a88ffa",
+                     "id": "163",
+                     "name": "Canvas LMS",
+                     "type": "url",
+                     "url": "https://itam.instructure.com/conversations#filter=type=inbox"
+                  }, {
+                     "date_added": "13337534790000000",
+                     "date_last_used": "0",
+                     "guid": "a71fc528-7f3f-4bbd-920c-702eab5f1f5c",
+                     "id": "164",
+                     "name": "256 Colors - Cheat Sheet - Xterm, HEX, RGB, HSL",
+                     "type": "url",
+                     "url": "https://www.ditig.com/256-colors-cheat-sheet"
+                  }, {
+                     "date_added": "13337536811000000",
+                     "date_last_used": "0",
+                     "guid": "2127a081-8faf-4995-8ff3-f81338215212",
+                     "id": "165",
+                     "name": "How to enable syntax highlighting in ranger preview? - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/435696/how-to-enable-syntax-highlighting-in-ranger-preview"
+                  }, {
+                     "date_added": "13337731052000000",
+                     "date_last_used": "0",
+                     "guid": "e2809e83-2b4a-4f7e-8209-efbeb8577f04",
+                     "id": "166",
+                     "name": "GitHub - newmanls/rofi-themes-collection: Themes Collection for Rofi Launcher",
+                     "type": "url",
+                     "url": "https://github.com/newmanls/rofi-themes-collection"
+                  }, {
+                     "date_added": "13337822723000000",
+                     "date_last_used": "0",
+                     "guid": "cb5af8f2-7675-4920-94ae-62d9de9d2599",
+                     "id": "167",
+                     "name": "Starship configuration file · GitHub",
+                     "type": "url",
+                     "url": "https://gist.github.com/ryo-ARAKI/48a11585299f9032fa4bda60c9bba593"
+                  }, {
+                     "date_added": "13337827175000000",
+                     "date_last_used": "0",
+                     "guid": "183729fe-7e2b-4cb5-94d7-ff69c69cba71",
+                     "id": "168",
+                     "name": "GitHub - kovidgoyal/kitty-themes: Themes for the kitty terminal emulator",
+                     "type": "url",
+                     "url": "https://github.com/kovidgoyal/kitty-themes"
+                  }, {
+                     "date_added": "13338099596000000",
+                     "date_last_used": "0",
+                     "guid": "60ab3ab6-1ee9-46ec-b3da-38a9d875f6e4",
+                     "id": "169",
+                     "name": "micro/runtime/help/keybindings.md at master · zyedidia/micro · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/zyedidia/micro/blob/master/runtime/help/keybindings.md"
+                  }, {
+                     "date_added": "13338190203000000",
+                     "date_last_used": "0",
+                     "guid": "636e975a-f879-4ac9-9171-bf3fe4b5ddf0",
+                     "id": "170",
+                     "name": "Setting Up River 0.1.0 - Leon Plickats Blog",
+                     "type": "url",
+                     "url": "https://leon_plickat.srht.site/blog/setting-up-river-010/article.html"
+                  }, {
+                     "date_added": "13338221809000000",
+                     "date_last_used": "0",
+                     "guid": "91966b66-6440-4813-8a18-400ddafe1209",
+                     "id": "171",
+                     "name": "keyboard codes to alphanumeric strings · GitHub",
+                     "type": "url",
+                     "url": "https://gist.github.com/okyeron/eaad77e4d484694526ac6ae40f7b6120"
+                  }, {
+                     "date_added": "13338244660000000",
+                     "date_last_used": "0",
+                     "guid": "8d8b0e66-6497-47f2-9f2b-6dcbb787180b",
+                     "id": "172",
+                     "name": "Tutorial · WayfireWM/wayfire Wiki · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/WayfireWM/wayfire/wiki/Tutorial"
+                  }, {
+                     "date_added": "13338447788000000",
+                     "date_last_used": "0",
+                     "guid": "2f14390f-7c63-428e-8ae8-87cd0fa70b6b",
+                     "id": "173",
+                     "name": "HiDPI on Wayfire - Issues & Assistance / Garuda Installer Images - Garuda Linux Forum",
+                     "type": "url",
+                     "url": "https://forum.garudalinux.org/t/hidpi-on-wayfire/818"
+                  }, {
+                     "date_added": "13339024571000000",
+                     "date_last_used": "0",
+                     "guid": "6160982b-25ee-48a7-8321-9f4bf0f83413",
+                     "id": "174",
+                     "name": "How to use options? · Issue #49 · NicolaiSoeborg/filemanager-plugin · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/NicolaiSoeborg/filemanager-plugin/issues/49"
+                  }, {
+                     "date_added": "13339039536000000",
+                     "date_last_used": "0",
+                     "guid": "544ea311-e4b9-4dbf-9db9-87ff7975d46d",
+                     "id": "175",
+                     "name": "How To Set Default Fonts and Font Aliases on Linux",
+                     "type": "url",
+                     "url": "https://jichu4n.com/posts/how-to-set-default-fonts-and-font-aliases-on-linux/"
+                  }, {
+                     "date_added": "13339356513000000",
+                     "date_last_used": "0",
+                     "guid": "db5152d6-7073-459b-b461-70158876ed05",
+                     "id": "176",
+                     "name": "GitHub - nwg-piotr/nwg-iso: Arch Linux ISO with nwg-shell for sway and Hyprland",
+                     "type": "url",
+                     "url": "https://github.com/nwg-piotr/nwg-iso"
+                  }, {
+                     "date_added": "13339986380000000",
+                     "date_last_used": "0",
+                     "guid": "ded86269-a5fd-4918-828d-87b83b9af704",
+                     "id": "177",
+                     "name": "Open YouTube (And More) Videos From Your Web Browser With mpv [Firefox, Chrome] - Linux Uprising Blog",
+                     "type": "url",
+                     "url": "https://www.linuxuprising.com/2021/07/open-youtube-and-more-videos-from-your.html"
+                  }, {
+                     "date_added": "13340094979000000",
+                     "date_last_used": "0",
+                     "guid": "bc0a847f-de08-4c33-b479-84f5dab03e64",
+                     "id": "178",
+                     "name": "GitHub - Murzchnvok/rofi-collection: Beautiful collection of Rofi themes",
+                     "type": "url",
+                     "url": "https://github.com/Murzchnvok/rofi-collection"
+                  }, {
+                     "date_added": "13340772186000000",
+                     "date_last_used": "0",
+                     "guid": "bccd4bbf-2bb3-4cb6-9971-c99b5dfb4cb5",
+                     "id": "179",
+                     "name": "GitHub - Aylur/dotfiles: My personal config files",
+                     "type": "url",
+                     "url": "https://github.com/Aylur/dotfiles"
+                  }, {
+                     "date_added": "13342205131000000",
+                     "date_last_used": "0",
+                     "guid": "0840e8b8-62ce-4bdc-8713-e2ac0ab72566",
+                     "id": "180",
+                     "name": "fastfetch/presets/examples/6.jsonc at dev · fastfetch-cli/fastfetch · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/fastfetch-cli/fastfetch/blob/dev/presets/examples/6.jsonc"
+                  }, {
+                     "date_added": "13342662997000000",
+                     "date_last_used": "0",
+                     "guid": "474d859c-5779-4ed3-9d61-65c16fc5e47d",
+                     "id": "181",
+                     "name": "GitHub - leukipp/cortile: Linux auto tiling manager with hot corner support for Openbox, Fluxbox, IceWM, Xfwm, KWin, Marco, Muffin, Mutter and other EWMH compliant window managers using the X11 window system. Therefore, this project provides dynamic tiling for XFCE, LXDE, LXQt, KDE and GNOME (Mate, Deepin, Cinnamon, Budgie) based desktop environments.",
+                     "type": "url",
+                     "url": "https://github.com/leukipp/cortile"
+                  }, {
+                     "date_added": "13343110888000000",
+                     "date_last_used": "0",
+                     "guid": "216c5bf3-caca-4de5-8e06-ca14e7625102",
+                     "id": "182",
+                     "name": "(94) Install my dotfiles for HYPRLAND and QTILE. Easy and fast with installation scripts. - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=yA7Omw64g-M"
+                  }, {
+                     "date_added": "13344355743000000",
+                     "date_last_used": "0",
+                     "guid": "288fcbad-37db-426f-9f72-94d806bbc9ba",
+                     "id": "183",
+                     "name": "(172) NixOS is Mindblowing - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=fuWPuJZ9NcU"
+                  }, {
+                     "date_added": "13344355771000000",
+                     "date_last_used": "0",
+                     "guid": "b9c9496e-b76a-4a70-8927-412e24b7bec7",
+                     "id": "184",
+                     "name": "NixOS Explained",
+                     "type": "url",
+                     "url": "https://christitus.com/nixos-explained/"
+                  }, {
+                     "date_added": "13346007645000000",
+                     "date_last_used": "0",
+                     "guid": "1e1cade1-62cf-4935-9467-41f6c33bd928",
+                     "id": "185",
+                     "name": "thunderbird add-ons",
+                     "type": "url",
+                     "url": "https://addons.thunderbird.net/En-us/thunderbird/static-themes/?sort=updated"
+                  }, {
+                     "date_added": "13346139615000000",
+                     "date_last_used": "0",
+                     "guid": "4e264100-b3af-4385-a017-ac5934dc0101",
+                     "id": "186",
+                     "name": "How to clone whole Linux partition with Rsync - Bas van Beek",
+                     "type": "url",
+                     "url": "https://www.basvanbeek.nl/linux/how-to-clone-whole-linux-partition-with-rsync/"
+                  }, {
+                     "date_added": "13346354380000000",
+                     "date_last_used": "0",
+                     "guid": "47998617-e157-46db-89ca-c26d53a27e53",
+                     "id": "187",
+                     "name": "gtk - How to add QT_QPA_PLATFORMTHEME=qt5ct environment variable in Arch Linux? - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/680483/how-to-add-qt-qpa-platformtheme-qt5ct-environment-variable-in-arch-linux"
+                  }, {
+                     "date_added": "13348338963000000",
+                     "date_last_used": "0",
+                     "guid": "481e8910-facd-4a80-a88c-dad4959f28de",
+                     "id": "188",
+                     "name": "NixOS Series #2: How to Install NixOS on a Virtual Machine?",
+                     "type": "url",
+                     "url": "https://itsfoss.com/install-nixos-vm/"
+                  }, {
+                     "date_added": "13348716327000000",
+                     "date_last_used": "0",
+                     "guid": "4ff4846d-57db-4f03-a662-2869cda75cd8",
+                     "id": "189",
+                     "name": "(344) My Linux For Work - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/@mylinuxforwork"
+                  }, {
+                     "date_added": "13348858389000000",
+                     "date_last_used": "0",
+                     "guid": "79e884a9-3a79-4dda-bd17-af4eb450c046",
+                     "id": "190",
+                     "name": "(350) You Should Use Flakes Right Away in NixOS! - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=ACybVzRvDhs"
+                  }, {
+                     "date_added": "13348881100000000",
+                     "date_last_used": "0",
+                     "guid": "1b658ec8-55b2-4c43-83f9-f8f5a96bfc93",
+                     "id": "191",
+                     "name": "What's a quick way to comment/uncomment lines in Vim? - Stack Overflow",
+                     "type": "url",
+                     "url": "https://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim"
+                  }, {
+                     "date_added": "13348939605000000",
+                     "date_last_used": "0",
+                     "guid": "f024566d-4d68-4aff-9ce2-d9d24c6ddf3b",
+                     "id": "192",
+                     "name": "vim-airline - Vim Awesome",
+                     "type": "url",
+                     "url": "https://vimawesome.com/plugin/vim-airline-superman"
+                  }, {
+                     "date_added": "13348940397000000",
+                     "date_last_used": "0",
+                     "guid": "880fe80d-f7a7-478e-95d7-1a29c23a4aa8",
+                     "id": "193",
+                     "name": "How to install plugins in vim using vundle? - Stack Overflow",
+                     "type": "url",
+                     "url": "https://stackoverflow.com/questions/47956670/how-to-install-plugins-in-vim-using-vundle"
+                  }, {
+                     "date_added": "13349310210000000",
+                     "date_last_used": "0",
+                     "guid": "add57ce7-4998-4119-b06c-9fc6b15845da",
+                     "id": "194",
+                     "name": "kitty.conf - kitty",
+                     "type": "url",
+                     "url": "https://sw.kovidgoyal.net/kitty/conf/#opt-kitty.tab_bar_min_tabs"
+                  }, {
+                     "date_added": "13349408949000000",
+                     "date_last_used": "0",
+                     "guid": "8984401b-377e-45ee-b456-ef6be462cd7b",
+                     "id": "195",
+                     "name": "(377) Vim - Complete Vim Tutorial - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=3G6kAEvbv2A"
+                  }, {
+                     "date_added": "13349748322000000",
+                     "date_last_used": "0",
+                     "guid": "c54f7f98-8a12-49ae-a2b9-e8e60b8a28a9",
+                     "id": "196",
+                     "name": "NixOS 23.11 manual | Nix & NixOS",
+                     "type": "url",
+                     "url": "https://nixos.org/manual/nixos/stable/#sec-package-management"
+                  }, {
+                     "date_added": "13349967067000000",
+                     "date_last_used": "0",
+                     "guid": "9ece0ff7-0cf5-4fd6-a04d-948bb82e71d6",
+                     "id": "197",
+                     "name": "Tree View - Broot",
+                     "type": "url",
+                     "url": "https://dystroy.org/broot/tree_view/"
+                  }, {
+                     "date_added": "13350060644000000",
+                     "date_last_used": "0",
+                     "guid": "ed73ff96-3335-4f01-9ec5-b67fdc2184fd",
+                     "id": "198",
+                     "name": "NixOS4Noobs",
+                     "type": "url",
+                     "url": "https://jorel.dev/NixOS4Noobs/print.html"
+                  }, {
+                     "date_added": "13350064408000000",
+                     "date_last_used": "0",
+                     "guid": "8e9c1d16-0d3f-4296-925e-ae34391bf9c3",
+                     "id": "199",
+                     "name": "NixOS Search - Packages",
+                     "type": "url",
+                     "url": "https://search.nixos.org/packages?ref=itsfoss.com"
+                  }, {
+                     "date_added": "13350265616000000",
+                     "date_last_used": "0",
+                     "guid": "695dbcc2-875c-4f33-90a9-3766b09f1944",
+                     "id": "200",
+                     "name": "dotfiles/nix/pkgs/sddm-sugar-candy.nix at main · julius-boettger/dotfiles · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/julius-boettger/dotfiles/blob/main/nix/pkgs/sddm-sugar-candy.nix"
+                  }, {
+                     "date_added": "13350332830000000",
+                     "date_last_used": "0",
+                     "guid": "052227d6-13c0-4576-b9ee-a35f3b3ed680",
+                     "id": "201",
+                     "name": "GitHub - novoid/nixos-config: NixOS + flakes + home-manager with xfce, zsh, tmux, ...",
+                     "type": "url",
+                     "url": "https://github.com/novoid/nixos-config"
+                  }, {
+                     "date_added": "13350333026000000",
+                     "date_last_used": "0",
+                     "guid": "a008d1e8-79aa-4dd9-bace-aceb94f650c3",
+                     "id": "202",
+                     "name": "NixOS Configuration with Flakes - jd",
+                     "type": "url",
+                     "url": "https://jdisaacs.com/blog/nixos-config/"
+                  }, {
+                     "date_added": "13350333462000000",
+                     "date_last_used": "0",
+                     "guid": "8401c29b-27fe-40c1-9559-63c6a662fecb",
+                     "id": "203",
+                     "name": "Install NixOS with Flake configuration on Git – NixOS Asia",
+                     "type": "url",
+                     "url": "https://nixos.asia/en/nixos-install-flake"
+                  }, {
+                     "date_added": "13350371906000000",
+                     "date_last_used": "0",
+                     "guid": "6adf1cd4-5faf-421d-a100-e609368cb909",
+                     "id": "204",
+                     "name": "Modularize Your NixOS Configuration | NixOS & Flakes Book",
+                     "type": "url",
+                     "url": "https://nixos-and-flakes.thiscute.world/nixos-with-flakes/modularize-the-configuration"
+                  }, {
+                     "date_added": "13350373852000000",
+                     "date_last_used": "0",
+                     "guid": "20beb30f-a33b-42f7-9674-0e759d2bc796",
+                     "id": "205",
+                     "name": "dotfiles/nix/configuration.nix at main · julius-boettger/dotfiles",
+                     "type": "url",
+                     "url": "https://github.com/julius-boettger/dotfiles/blob/main/nix/configuration.nix"
+                  }, {
+                     "date_added": "13350397465000000",
+                     "date_last_used": "0",
+                     "guid": "57b88438-ce99-4d0c-adb7-4e46880732fb",
+                     "id": "206",
+                     "name": "nixos/nixpkgs-overlays/pkgs/applications/window-managers/wayfire at master · prehonor/nixos · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/prehonor/nixos/tree/master/nixpkgs-overlays/pkgs/applications/window-managers/wayfire"
+                  }, {
+                     "date_added": "13350417884000000",
+                     "date_last_used": "0",
+                     "guid": "d19f6f68-6304-4725-8a27-c1ab6d40158b",
+                     "id": "207",
+                     "name": "NixOS Configuration (Sway/Wayland Enabled) · GitHub",
+                     "type": "url",
+                     "url": "https://gist.github.com/kborling/76805ade81ac5bfdd712df294208c878"
+                  }, {
+                     "date_added": "13350430678000000",
+                     "date_last_used": "0",
+                     "guid": "deb0fd11-fd4b-439f-9b81-5f6e71cf9d9c",
+                     "id": "208",
+                     "name": "(428) How to Start Adding Modularity to your NixOS Config - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=bV3hfalcSKs&t=8s"
+                  }, {
+                     "date_added": "13350505481000000",
+                     "date_last_used": "0",
+                     "guid": "d8768daf-fb6a-4c20-990d-a6b985b08262",
+                     "id": "209",
+                     "name": "RobWalt/nixos-installation: My NixOS config and a little guide - Codeberg.org",
+                     "type": "url",
+                     "url": "https://codeberg.org/RobWalt/nixos-installation"
+                  }, {
+                     "date_added": "13350514690000000",
+                     "date_last_used": "0",
+                     "guid": "7c9622ff-13bf-4cc4-a28d-58d9533ab003",
+                     "id": "210",
+                     "name": "nixos/extrapackages/clairvoyance.nix at master · JorelAli/nixos",
+                     "type": "url",
+                     "url": "https://github.com/JorelAli/nixos/blob/master/extrapackages/clairvoyance.nix"
+                  }, {
+                     "date_added": "13350720142000000",
+                     "date_last_used": "0",
+                     "guid": "7b6456cc-495e-489e-b774-96d618ad81a9",
+                     "id": "211",
+                     "name": "(441) nix from nothing #1 - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/results?search_query=nix+from+nothing+%231"
+                  }, {
+                     "date_added": "13350978112000000",
+                     "date_last_used": "0",
+                     "guid": "5776f49f-eeac-4aec-84d3-4bd6f0b9476f",
+                     "id": "212",
+                     "name": "How to Manage Your Dotfiles the Nix Way with Home Manager | LibrePhoenix’s Tech Nest",
+                     "type": "url",
+                     "url": "https://librephoenix.com/2023-11-02-how-to-manage-your-dotfiles-the-nix-way-with-home-manager#orgc1fa8b8"
+                  }, {
+                     "date_added": "13351065808000000",
+                     "date_last_used": "0",
+                     "guid": "84a38aa7-2d32-4b43-a7ed-50a0a0b4e844",
+                     "id": "213",
+                     "name": "(459) Nix Language Overview - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=eCapIx9heBw&list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-&index=5"
+                  }, {
+                     "date_added": "13351127982000000",
+                     "date_last_used": "0",
+                     "guid": "a1831753-6488-4789-8f77-b07e90bd39e6",
+                     "id": "214",
+                     "name": "Managing files without symlinks · Issue #257 · nix-community/home-manager · GitHub",
+                     "type": "url",
+                     "url": "https://github.com/nix-community/home-manager/issues/257"
+                  }, {
+                     "date_added": "13351144652000000",
+                     "date_last_used": "0",
+                     "guid": "eb7d3dfe-a7c2-419a-a815-7ecca85c5ac6",
+                     "id": "215",
+                     "name": "Getting started with NixOS Desktop with Flakes",
+                     "type": "url",
+                     "url": "https://progsoc.org/blog/getting-started-with-nixos/"
+                  }, {
+                     "date_added": "13351174658000000",
+                     "date_last_used": "0",
+                     "guid": "ff12c825-d9cd-4fc9-b570-f247073968a0",
+                     "id": "216",
+                     "name": ".nixconfig/videos/flakesootb/script.rst at master · mcdonc/.nixconfig",
+                     "type": "url",
+                     "url": "https://github.com/mcdonc/.nixconfig/blob/master/videos/flakesootb/script.rst"
+                  }, {
+                     "date_added": "13351175601000000",
+                     "date_last_used": "0",
+                     "guid": "c0c07f95-e0bd-43bb-8541-7a68c62c0074",
+                     "id": "217",
+                     "name": "(465) NixOS 7: Custom Configuring A Zsh Configuration Controlled By Home Manager - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=Z9xpgjRoEuQ&list=PLa01scHy0YEmg8trm421aYq4OtPD8u1SN&index=6"
+                  }, {
+                     "date_added": "13351379905000000",
+                     "date_last_used": "0",
+                     "guid": "d3ed1197-0c11-4c6a-96f7-73127197e5dc",
+                     "id": "218",
+                     "name": "(476) NixOS 63: Install NixOS 23.11 and Use Flakes Out Of the Box - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=hoB0pHZ0fpI&list=PLa01scHy0YEmg8trm421aYq4OtPD8u1SN&index=60"
+                  }, {
+                     "date_added": "13351397774000000",
+                     "date_last_used": "0",
+                     "guid": "970722dc-da32-4861-a9de-407dca986cce",
+                     "id": "219",
+                     "name": "How to Git Push to Remote Branch",
+                     "type": "url",
+                     "url": "https://phoenixnap.com/kb/git-push-to-remote-branch"
+                  }, {
+                     "date_added": "13351537600000000",
+                     "date_last_used": "0",
+                     "guid": "eaf49ebe-577a-4f9e-9709-9073445ae3ec",
+                     "id": "220",
+                     "name": "Pushing your first project to github",
+                     "type": "url",
+                     "url": "https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad"
+                  }, {
+                     "date_added": "13351573305000000",
+                     "date_last_used": "0",
+                     "guid": "75f4b983-1ccb-44dd-9a0e-babe6ba297f6",
+                     "id": "221",
+                     "name": "(487) NixOS - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/playlist?list=PL-saUBvIJzOkjAw_vOac75v-x6EzNzZq-"
+                  }, {
+                     "date_added": "13351911152000000",
+                     "date_last_used": "0",
+                     "guid": "e5b4bf95-8ff4-43f8-be4a-ebd39223093b",
+                     "id": "222",
+                     "name": "An unofficial NixOS & Flakes book for beginners - Guides - NixOS Discourse",
+                     "type": "url",
+                     "url": "https://discourse.nixos.org/t/an-unofficial-nixos-flakes-book-for-beginners/29561"
+                  }, {
+                     "date_added": "13351925311000000",
+                     "date_last_used": "0",
+                     "guid": "b91767d5-acf0-4037-9906-e73b2962d349",
+                     "id": "223",
+                     "name": "(500) Nix From Nothing #3 | Let's Learn #Nix & #NixOS! - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=ADIcVWCoVB4&t=22s"
+                  }, {
+                     "date_added": "13352054572000000",
+                     "date_last_used": "0",
+                     "guid": "f1438b31-38b1-492e-915d-913d711588b2",
+                     "id": "224",
+                     "name": "Nix Pills | Nix & NixOS",
+                     "type": "url",
+                     "url": "https://nixos.org/guides/nix-pills/"
+                  } ],
+                  "date_added": "13352100746491521",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "5b33c30c-0caa-4ff7-bec2-70279bba4c44",
+                  "id": "41",
+                  "name": "Linux",
+                  "type": "folder"
+               }, {
+                  "date_added": "13271098478000000",
+                  "date_last_used": "0",
+                  "guid": "6656fed6-1408-407a-ae05-f23571560383",
+                  "id": "225",
+                  "name": "Estate Planning: 16 Things to Do Before You Die",
+                  "type": "url",
+                  "url": "https://www.investopedia.com/articles/retirement/10/estate-planning-checklist.asp"
+               }, {
+                  "children": [ {
+                     "date_added": "13271267886000000",
+                     "date_last_used": "0",
+                     "guid": "b51fbc0e-3c8a-499d-a964-9af7937a77bf",
+                     "id": "227",
+                     "name": "Mathematical methods for economic theory: 7.1 Optimization with inequality constraints: the Kuhn-Tucker conditions",
+                     "type": "url",
+                     "url": "https://mjo.osborne.economics.utoronto.ca/index.php/tutorial/index/1/ktc/t"
+                  }, {
+                     "date_added": "13271657431000000",
+                     "date_last_used": "0",
+                     "guid": "33d1c607-7216-4475-9760-29ada682aa52",
+                     "id": "228",
+                     "name": "BCH_Formula.pdf",
+                     "type": "url",
+                     "url": "https://www.math.umd.edu/~cdaly69/notes/BCH_Formula.pdf"
+                  }, {
+                     "date_added": "13316114497000000",
+                     "date_last_used": "0",
+                     "guid": "7f270cee-a2e5-4265-9133-ec997ded27d3",
+                     "id": "229",
+                     "name": "properties of ranks of sets",
+                     "type": "url",
+                     "url": "https://planetmath.org/propertiesofranksofsets"
+                  }, {
+                     "date_added": "13285833494000000",
+                     "date_last_used": "0",
+                     "guid": "d68ce682-dfee-4b9a-8163-16641beec538",
+                     "id": "230",
+                     "name": "580 -Some choiceless results (3) | Teaching blog",
+                     "type": "url",
+                     "url": "https://caicedoteaching.wordpress.com/2009/01/27/580-some-choiceless-results-3/"
+                  }, {
+                     "date_added": "13292830692000000",
+                     "date_last_used": "0",
+                     "guid": "f5f89ee1-36b7-410f-ade7-1513efda0007",
+                     "id": "231",
+                     "name": "\"Complex Analysis Core Class Notes\" Webpage",
+                     "type": "url",
+                     "url": "https://faculty.etsu.edu/gardnerr/5510/notes.htm"
+                  }, {
+                     "date_added": "13292903445000000",
+                     "date_last_used": "0",
+                     "guid": "afd1df66-d86c-4fdb-b0c5-f754f6ee35c2",
+                     "id": "232",
+                     "name": "The Arch Linux Handbook",
+                     "type": "url",
+                     "url": "https://www.freecodecamp.org/news/how-to-install-arch-linux/#how-to-connect-to-the-internet"
+                  }, {
+                     "date_added": "13292916000000000",
+                     "date_last_used": "0",
+                     "guid": "3563eaee-5ec5-48ea-ad2f-a3b1cbf45f06",
+                     "id": "233",
+                     "name": "Bob Gardner's Website",
+                     "type": "url",
+                     "url": "https://faculty.etsu.edu/gardnerr/gardner.htm"
+                  }, {
+                     "date_added": "13292942843000000",
+                     "date_last_used": "0",
+                     "guid": "1c70d9ab-809b-41a7-94a4-115af728ed1a",
+                     "id": "234",
+                     "name": "Xorg/Keyboard configuration - ArchWiki",
+                     "type": "url",
+                     "url": "https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_X_configuration_files"
+                  }, {
+                     "date_added": "13300170292000000",
+                     "date_last_used": "0",
+                     "guid": "0f6e5956-6447-401c-a539-151f876dc167",
+                     "id": "235",
+                     "name": "To show that product $Z=X×Y$ in the product topology is a CW complex - Mathematics Stack Exchange",
+                     "type": "url",
+                     "url": "https://math.stackexchange.com/questions/1801206/to-show-that-product-z-x%c3%97y-in-the-product-topology-is-a-cw-complex?noredirect=1&lq=1"
+                  }, {
+                     "date_added": "13302485237000000",
+                     "date_last_used": "0",
+                     "guid": "8cc9da46-02b8-4f27-acde-9167f969f4fa",
+                     "id": "236",
+                     "name": "Lecture Notes | Analysis II | Mathematics | MIT OpenCourseWare",
+                     "type": "url",
+                     "url": "https://ocw.mit.edu/courses/18-101-analysis-ii-fall-2005/pages/lecture-notes/"
+                  }, {
+                     "date_added": "13313709695000000",
+                     "date_last_used": "0",
+                     "guid": "4e50bb45-330d-48c0-accc-57af1df5eb8a",
+                     "id": "237",
+                     "name": "Stokes's Theorem and Whitney Manifolds",
+                     "type": "url",
+                     "url": "https://www.pdfdrive.com/search?q=Stokes%27s+Theorem+and+Whitney+Manifolds&pagecount=&pubyear=&searchin=&em=&more=true"
+                  }, {
+                     "date_added": "13321161566000000",
+                     "date_last_used": "0",
+                     "guid": "7e865e9a-89be-44e7-9e96-8c8b77bdad07",
+                     "id": "238",
+                     "name": "real analysis - Step in a proof that $(a^x)^y = a^{xy}$. - Mathematics Stack Exchange",
+                     "type": "url",
+                     "url": "https://math.stackexchange.com/questions/4476235/step-in-a-proof-that-axy-axy?noredirect=1&lq=1"
+                  }, {
+                     "date_added": "13322806194000000",
+                     "date_last_used": "0",
+                     "guid": "a4598f85-5ecc-4d86-a9b2-2621d9c36e4f",
+                     "id": "239",
+                     "name": "(99+) [Simmons] Introduction to Topology and Modern Analysis | aditya ojha - Academia.edu",
+                     "type": "url",
+                     "url": "https://www.academia.edu/41477596/_Simmons_Introduction_to_Topology_and_Modern_Analysis"
+                  } ],
+                  "date_added": "13352100746502970",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "2835e232-c33c-4aca-95cf-fd61faf0f999",
+                  "id": "226",
+                  "name": "Math",
+                  "type": "folder"
+               }, {
+                  "date_added": "13287771221000000",
+                  "date_last_used": "0",
+                  "guid": "ca76602c-a22c-4549-812f-8c3056b2de7e",
+                  "id": "240",
+                  "name": "Italic Text Generator (𝘤𝘰𝘱𝘺 𝘢𝘯𝘥 𝘱𝘢𝘴𝘵𝘦) ― LingoJam",
+                  "type": "url",
+                  "url": "https://lingojam.com/ItalicTextGenerator"
+               }, {
+                  "date_added": "13287870607000000",
+                  "date_last_used": "0",
+                  "guid": "3b368252-4cab-4064-b060-95b4778ed001",
+                  "id": "241",
+                  "name": "systemd - A stop job is running for Session c2 of user - Unix & Linux Stack Exchange",
+                  "type": "url",
+                  "url": "https://unix.stackexchange.com/questions/273876/a-stop-job-is-running-for-session-c2-of-user/423745#423745"
+               }, {
+                  "date_added": "13287870745000000",
+                  "date_last_used": "0",
+                  "guid": "2d52ab2a-5240-46c3-a8ab-f9e9b39818b3",
+                  "id": "242",
+                  "name": "arch linux - Why do my computers take a long time to shut down? - Unix & Linux Stack Exchange",
+                  "type": "url",
+                  "url": "https://unix.stackexchange.com/questions/625989/why-do-my-computers-take-a-long-time-to-shut-down"
+               }, {
+                  "date_added": "13287871060000000",
+                  "date_last_used": "0",
+                  "guid": "cb4c4e8d-5996-4096-b2d4-c57d405ba29e",
+                  "id": "243",
+                  "name": "Ubuntu Linux Taking Too Long to Shutdown? Here's How to Fix!",
+                  "type": "url",
+                  "url": "https://itsfoss.com/long-shutdown-linux/"
+               }, {
+                  "date_added": "13289624226000000",
+                  "date_last_used": "0",
+                  "guid": "2a030f0b-a32f-4ee4-9a01-cd4b4deb8b5c",
+                  "id": "244",
+                  "name": "Gothic / Blackletter / Old English Unicode Text - 𝔉𝔯𝔞𝔨𝔱𝔲𝔯 / 𝔊𝔬𝔱𝔥𝔦𝔠",
+                  "type": "url",
+                  "url": "https://yaytext.com/fraktur/"
+               }, {
+                  "date_added": "13291013921000000",
+                  "date_last_used": "0",
+                  "guid": "55350393-f56a-4012-803e-8c8998b8db23",
+                  "id": "245",
+                  "name": "The 100 Best Film Noirs of All Time - Paste",
+                  "type": "url",
+                  "url": "https://www.pastemagazine.com/movies/the-100-best-noirs-of-all-time/#90-kiss-of-death"
+               }, {
+                  "date_added": "13297287244000000",
+                  "date_last_used": "0",
+                  "guid": "5091efb5-6f14-4673-8dbf-3e8538b50d48",
+                  "id": "246",
+                  "name": "Online Mp3 Cutter - Audio Trimmer",
+                  "type": "url",
+                  "url": "https://audiotrimmer.com/#"
+               }, {
+                  "date_added": "13300036249000000",
+                  "date_last_used": "0",
+                  "guid": "c922afff-526a-4aa6-ae18-19b2c4446f76",
+                  "id": "247",
+                  "name": "Markdown Editing Help - Mathematics Stack Exchange",
+                  "type": "url",
+                  "url": "https://math.stackexchange.com/editing-help#advanced-lists"
+               }, {
+                  "date_added": "13303421580000000",
+                  "date_last_used": "0",
+                  "guid": "a6465150-8ec7-4efe-ba45-eeed5b5069c1",
+                  "id": "248",
+                  "name": "Why US Brokerage Accounts of American Expats are Being Closed",
+                  "type": "url",
+                  "url": "https://www.usglobaltax.com/guest-article-why-us-brokerage-accounts-of-american-expats-are-being-closed/"
+               }, {
+                  "date_added": "13303450525000000",
+                  "date_last_used": "0",
+                  "guid": "3f1c4a1c-20c2-41b0-b4e5-b2a8563cd1f7",
+                  "id": "249",
+                  "name": "I called Vanguard (where most of my money is) and they said if I leave the country I don't have to change anything on my account or keep a US billing address. : expat",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/expat/comments/v5f7bj/i_called_vanguard_where_most_of_my_money_is_and/"
+               }, {
+                  "date_added": "13315941230000000",
+                  "date_last_used": "0",
+                  "guid": "544e09e7-e83d-4927-9372-f65e5f417bbe",
+                  "id": "250",
+                  "name": "torrent site",
+                  "type": "url",
+                  "url": "https://1337x.to/torrent/5468173/Babylon-Berlin-S04E11-12-ITA-GER-1080p-HMAX-WEB-DLMux-DD5-1-H-264-MeM-GP/"
+               }, {
+                  "date_added": "13316114434000000",
+                  "date_last_used": "0",
+                  "guid": "c7716867-439f-4c12-bca0-5cecbb9dd846",
+                  "id": "251",
+                  "name": "Tarjeta De Débito",
+                  "type": "url",
+                  "url": "https://www.banorte.com/wps/portal/banorte/Home/cuentas-y-tarjetas/tarjeta-de-debito-con-chequera/tarjeta-universal"
+               }, {
+                  "date_added": "13316885130000000",
+                  "date_last_used": "0",
+                  "guid": "5ad07ea3-1d34-4abc-b174-1adf7bf134c8",
+                  "id": "252",
+                  "name": "Tramite: Retiro total por Pensión y Negativa IMSS",
+                  "type": "url",
+                  "url": "https://www.consar.gob.mx/gobmx/aplicativo/catsar/Principal/TramiteExt.aspx?idTramite=20&PAG_ACTUAL=/gobmx/aplicativo/catsar/Principal/InicioExt.aspx"
+               }, {
+                  "children": [ {
+                     "date_added": "13318057544000000",
+                     "date_last_used": "0",
+                     "guid": "5a2c9f9b-f2b5-4135-9e0d-11744fca9805",
+                     "id": "254",
+                     "name": "Diamante Inmuebles - La Empresa",
+                     "type": "url",
+                     "url": "https://www.diamante-inmuebles.com/s/La-Empresa"
+                  }, {
+                     "date_added": "13318057572000000",
+                     "date_last_used": "0",
+                     "guid": "87419986-93b1-4c1a-b0ae-6b0dcec67f33",
+                     "id": "255",
+                     "name": "Renta de casas amuebladas en Aguascalientes",
+                     "type": "url",
+                     "url": "https://www.rentadecasasamuebladas.com/"
+                  }, {
+                     "date_added": "13318057698000000",
+                     "date_last_used": "0",
+                     "guid": "7252a4f4-9d2b-44e1-84ff-50d8dfba609d",
+                     "id": "256",
+                     "name": "https://century21mexico.com/busqueda/en-estado_aguascalientes",
+                     "type": "url",
+                     "url": "https://century21mexico.com/busqueda/en-estado_aguascalientes"
+                  }, {
+                     "date_added": "13318057863000000",
+                     "date_last_used": "0",
+                     "guid": "a9562d46-c434-497c-a358-795ad11710ca",
+                     "id": "257",
+                     "name": "Agencias inmobiliarias en AGUASCALIENTES",
+                     "type": "url",
+                     "url": "https://guia-aguascalientes.guiamexico.com.mx/agencias-inmobiliarias/aguascalientes/empresas-guia.html"
+                  } ],
+                  "date_added": "13352100746504577",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "0e7c4ab2-fa6b-4a14-9ad3-ab81c373322b",
+                  "id": "253",
+                  "name": "Corredores",
+                  "type": "folder"
+               }, {
+                  "date_added": "13319426440000000",
+                  "date_last_used": "0",
+                  "guid": "3c23f096-bbe2-4af7-889e-c87f18de401a",
+                  "id": "258",
+                  "name": "Colonoscopies: New study questions their effectiveness | CNN",
+                  "type": "url",
+                  "url": "https://edition.cnn.com/2022/10/09/health/colonoscopy-cancer-death-study/index.html"
+               }, {
+                  "date_added": "13319900109000000",
+                  "date_last_used": "0",
+                  "guid": "f46bf2d9-75c0-4228-a63a-8a69a521c809",
+                  "id": "259",
+                  "name": "Autorizada con inconsistencia cuenta clabe - Runa",
+                  "type": "url",
+                  "url": "https://runahr.com/mx/recursos/comienza-tu-empresa/inconsistencia-en-cuenta-clabe/"
+               }, {
+                  "date_added": "13319902211000000",
+                  "date_last_used": "0",
+                  "guid": "580c352e-1791-4e6b-b096-a97a1b68e60a",
+                  "id": "260",
+                  "name": "SAT: ¿Puedo cambiar o modificar mi CLABE interbancaria en línea? | N+",
+                  "type": "url",
+                  "url": "https://www.nmas.com.mx/nacional/sat-puedo-cambiar-o-modificar-mi-clabe-interbancaria-en-linea"
+               }, {
+                  "date_added": "13320335147000000",
+                  "date_last_used": "0",
+                  "guid": "71a4c010-368a-4e48-a9c9-1fd76c881a7e",
+                  "id": "261",
+                  "name": "BUZÓN TRIBUTARIO",
+                  "type": "url",
+                  "url": "https://wwwmat.sat.gob.mx/operacion/26089/presenta-la-correccion-de-cuenta-clabe"
+               }, {
+                  "date_added": "13322508285000000",
+                  "date_last_used": "0",
+                  "guid": "78b6a7be-7769-4837-bb53-e2b6932686d5",
+                  "id": "262",
+                  "name": "Best Lenovo laptops in 2023 | Laptop Mag",
+                  "type": "url",
+                  "url": "https://www.laptopmag.com/best-lenovo-laptops"
+               }, {
+                  "date_added": "13323107148000000",
+                  "date_last_used": "0",
+                  "guid": "ddfab634-648b-47fb-ab37-61f2501aac3c",
+                  "id": "263",
+                  "name": "Download Freud S01E01 720p WEB X264-EDHD [eztv] Torrent | 1337x",
+                  "type": "url",
+                  "url": "https://1337x.to/torrent/4369342/Freud-S01E01-720p-WEB-X264-EDHD-eztv/"
+               }, {
+                  "date_added": "13327645900000000",
+                  "date_last_used": "0",
+                  "guid": "17359596-2f6f-4230-85d8-7e40a93dfa74",
+                  "id": "264",
+                  "name": "Asistencia por chat en vivo | Prima AFP",
+                  "type": "url",
+                  "url": "https://salesiq.zoho.com/signaturesupport.ls?widgetcode=49c13587d730313d939d75a12056e4cf0cbeab76ff2c5be8ea90353528a397b955e25b04c7489d5ea523f33b8cf0da45"
+               }, {
+                  "date_added": "13328839061000000",
+                  "date_last_used": "0",
+                  "guid": "1bea9ed0-6e73-4b22-a237-1a8b33bb9061",
+                  "id": "265",
+                  "name": "Plenty of Fish Emojis & Text | 🔢🐟🐠🐡 | Copy & Paste",
+                  "type": "url",
+                  "url": "https://emojicombos.com/plenty-of-fish"
+               }, {
+                  "date_added": "13331880389000000",
+                  "date_last_used": "0",
+                  "guid": "24e4f771-80a7-42c4-8864-6cd0955ff151",
+                  "id": "266",
+                  "name": "¿Cómo activo la e-Llave virtual de Scotiabank? - Centro de Ayuda Scotiabank",
+                  "type": "url",
+                  "url": "https://ayuda.scotiabank.com.mx/article/como-activo-la-e-llave-virtual-de-scotiabank"
+               }, {
+                  "date_added": "13333951564000000",
+                  "date_last_used": "0",
+                  "guid": "d49648a5-6665-4f7b-8739-77eb208e24a8",
+                  "id": "267",
+                  "name": "Mi Pensión Digital",
+                  "type": "url",
+                  "url": "https://tspi.imss.gob.mx/tspi-web/preSolicitud/pension/home"
+               }, {
+                  "date_added": "13336181791000000",
+                  "date_last_used": "0",
+                  "guid": "af2896e0-eb2d-416f-8289-a084bd47571c",
+                  "id": "268",
+                  "name": "No Link Between PPIs and Dementia in New Study",
+                  "type": "url",
+                  "url": "https://www.medscape.com/viewarticle/993523"
+               }, {
+                  "date_added": "13340610278000000",
+                  "date_last_used": "0",
+                  "guid": "f81a2a7c-4343-424a-ac97-69a3132a5a4c",
+                  "id": "269",
+                  "name": "Google - My Activity",
+                  "type": "url",
+                  "url": "https://myactivity.google.com/activitycontrols?pli=1"
+               }, {
+                  "date_added": "13345085407000000",
+                  "date_last_used": "0",
+                  "guid": "9ad4034c-3472-441b-b030-58a9ae667adb",
+                  "id": "270",
+                  "name": "Expat Tax | Page 4 | Expat Forum For People Moving Overseas And Living Abroad",
+                  "type": "url",
+                  "url": "https://www.expatforum.com/forums/expat-tax.158/page-4?sorting=latest-activity"
+               }, {
+                  "date_added": "13346824663000000",
+                  "date_last_used": "0",
+                  "guid": "29237024-a6da-4075-a92a-6b798b2fee0d",
+                  "id": "271",
+                  "name": "Pablo by Buffer - Design engaging images for your social media posts in under 30 seconds",
+                  "type": "url",
+                  "url": "https://pablo.buffer.com/?ref=buffer.com#"
+               }, {
+                  "date_added": "13347268833000000",
+                  "date_last_used": "0",
+                  "guid": "b103ae85-90e8-4a83-812d-46b4c8412d0b",
+                  "id": "272",
+                  "name": "On-Demand 24/7 US Notaries Serving Mexico - Notarize",
+                  "type": "url",
+                  "url": "https://www.notarize.com/international/mexico"
+               }, {
+                  "date_added": "13347301071000000",
+                  "date_last_used": "0",
+                  "guid": "c0db4e5d-e065-4b8f-b4a8-bb78c783d7c8",
+                  "id": "273",
+                  "name": "Settings",
+                  "type": "url",
+                  "url": "chrome://settings/"
+               } ],
+               "date_added": "13352100746491061",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "8b670a24-2c3e-43df-95b2-c26aa4ed8dea",
+               "id": "24",
+               "name": "Other bookmarks",
+               "type": "folder"
+            } ],
+            "date_added": "13352100746491012",
+            "date_last_used": "0",
+            "date_modified": "13352100746491012",
+            "guid": "936167e1-2592-40bf-9675-4087b8e02156",
+            "id": "23",
+            "name": "Imported from Google Chrome Paulie.",
+            "type": "folder"
+         } ],
+         "date_added": "13352100736305528",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13352100736305530",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13352100736305540",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

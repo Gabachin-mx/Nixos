@@ -1,0 +1,16 @@
+#! /bin/bash
+
+RPM1=4000
+RPM2=5000
+
+RPM=$(sensors | grep -i fan | awk '{print $2}' )
+RPM=${RPM%}
+
+if [ "$RPM" -ge "$RPM2" ] ; then
+    echo -e "%{F#f00} $RPM RPM"
+elif [ "$RPM" -ge "$RPM1" ] ; then
+    echo -e "%{F#ffa500} $RPM RPM"
+else
+    echo -e "%{F#00ff00} $RPM RPM"
+
+fi

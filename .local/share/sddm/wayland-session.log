@@ -1,0 +1,672 @@
+xsetroot: unrecognized argument '-Adwaita'
+Usage: xsetroot [options]
+  where options are:
+  -help                           Print this help
+  -version                        Print a version message
+  -def, -default                  Reset unspecified attributes
+  -cursor <cursorfile> <maskfile> Pointer cursor used when outside of any windows
+  -cursor_name <cursorfontname>   Use a pointer cursor from the cursor font
+  -xcf <cursorfile> <cursorsize>  Load a pointer cursor from an Xcursor file
+  -bitmap <filename>              Use the bitmap specified in the file
+  -mod <x> <y>                    Use a plaid-like grid pattern on screen
+  -gray, -grey                    Make the entire background grey
+  -bg,  -background <color>       Set background color
+  -fg,  -foreground <color>       Set foreground color
+  -rv,  -reverse                  Swap foreground and background colors
+  -solid <color>                  Set the background of the root window
+  -name <string>                  Set the name of the root window
+  -d,   -display <display>        Specifies the server to connect to
+
+/bin/sh: line 1: /home/paul/.config/hypr/xdg-portal-hyprland: cannot execute: required file not found
+/bin/sh: line 1: /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1: No such file or directory
+2024-02-17 21:52:59 - [main.c:293] Found config * for output eDP-1 (BOE 0x06DF)
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.842: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.842: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.842: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.842: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.842: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.842: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.842: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(waybar:1504): Gtk-WARNING **: 21:52:59.843: Theme parsing error: gtk.css:37:17: unknown value for property
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+amixer: Unable to find simple control 'Master',0
+
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+
+(wlogout:1682): Gtk-WARNING **: 21:53:04.264: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:2:25: '      padding' is not a valid pro
+(wlogout:1682): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid perty name
+property name
+
+(wlogout:1682): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:1682): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:8:24: '      margin' is not a valid prop
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid erty name
+property name
+
+(wlogout:1682): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:1682): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:1682): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:1682): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:1680): Gtk-WARNING **: 21:53:04.265: Theme parsing error: gtk.css:37:17: unknown value for property
+
+** (wlogout:1682): WARNING **: 21:53:04.323: style.css:1:46Failed to import: Error opening file /home/paul/.cache/wal/colors-wlogout.css: No such file or directory
+
+** (wlogout:1680): WARNING **: 21:53:04.326: style.css:1:46Failed to import: Error opening file /home/paul/.cache/wal/colors-wlogout.css: No such file or directory
+[048 21:53:30.850910] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+[048 21:53:45.405735] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 21:53:45.405766] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(google-chrome:1812): Gtk-WARNING **: 21:54:01.648: Theme parsing error: gtk.css:37:17: unknown value for property
+[1812:1837:0217/215401.738524:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/portal/desktop: org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.portal.FileChooser”
+[1812:1837:0217/215401.743682:ERROR:select_file_dialog_linux_portal.cc(285)] Failed to read portal version property
+[1812:1929:0217/215402.295789:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1812:1929:0217/215402.296714:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[1812:1929:0217/215402.297651:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+[048 21:56:57.921285] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:56:57.921320] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:56:57.921336] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:57:03.979851] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 21:57:03.979881] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+[048 21:58:41.242267] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:58:41.379929] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:58:41.379969] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:58:41.527889] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:59:36.458253] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:59:36.458284] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 21:59:36.458294] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+[048 22:00:21.192512] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:00:21.192540] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+[048 22:01:07.255049] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:01:07.255081] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:01:07.255091] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+[048 22:01:44.183806] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:01:44.183836] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+[048 22:01:50.688096] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:01:50.688126] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:01:50.688136] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:01:52.720902] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:01:52.720936] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:4220): Gtk-WARNING **: 22:02:21.111: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:4222): Gtk-WARNING **: 22:02:21.113: Theme parsing error: gtk.css:37:17: unknown value for property
+
+** (wlogout:4222): WARNING **: 22:02:21.171: style.css:1:46Failed to import: Error opening file /home/paul/.cache/wal/colors-wlogout.css: No such file or directory
+
+** (wlogout:4220): WARNING **: 22:02:21.172: style.css:1:46Failed to import: Error opening file /home/paul/.cache/wal/colors-wlogout.css: No such file or directory
+[048 22:02:39.956403] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+[048 22:02:53.846081] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:02:53.846112] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.733: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.734: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.734: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.734: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.734: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.734: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.734: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:4343): Gtk-WARNING **: 22:03:37.734: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:4345): Gtk-WARNING **: 22:03:37.737: Theme parsing error: gtk.css:37:17: unknown value for property
+
+** (wlogout:4345): WARNING **: 22:03:37.801: style.css:7:22Not a valid image
+
+** (wlogout:4343): WARNING **: 22:03:37.803: style.css:7:22Not a valid image
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+[1812:1812:0217/220421.754369:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+[048 22:04:56.178271] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+Fontconfig error: Cannot load default config file: No such file: (null)
+[048 22:07:55.282947] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:07:55.282985] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:07:55.283001] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+[048 22:08:09.883028] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:08:09.883056] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+2024-02-17 22:08:38 - [main.c:293] Found config * for output eDP-1 (BOE 0x06DF)
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.382: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.382: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.382: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.382: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.382: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.382: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.383: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:4916): Gtk-WARNING **: 22:08:47.383: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:4918): Gtk-WARNING **: 22:08:47.388: Theme parsing error: gtk.css:37:17: unknown value for property
+
+** (wlogout:4916): WARNING **: 22:08:47.457: style.css:1:46Failed to import: Error opening file /home/paul/.cache/wal/colors-wlogout.css: No such file or directory
+
+** (wlogout:4918): WARNING **: 22:08:47.459: style.css:1:46Failed to import: Error opening file /home/paul/.cache/wal/colors-wlogout.css: No such file or directory
+*** BUG ***
+In pixman_region_intersect: Malformed region reg2
+Set a breakpoint on '_pixman_log_error' to debug
+
+[048 22:09:18.141266] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+[048 22:09:27.816483] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:09:27.816515] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+Fontconfig error: Cannot load default config file: No such file: (null)
+[048 22:10:56.313590] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:10:56.313623] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:10:56.313636] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:11:02.648916] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[048 22:11:02.914174] [PARSE ERROR] Unknown char after ESC: 0x6b
+[048 22:11:02.914237] [PARSE ERROR] Unknown char after ESC: 0x5c
+[048 22:11:02.914252] [PARSE ERROR] Unknown char after ESC: 0x6b
+[048 22:11:02.914264] [PARSE ERROR] Unknown char after ESC: 0x5c
+[048 22:11:11.272820] [PARSE ERROR] Unknown char after ESC: 0x6b
+[048 22:11:11.272862] [PARSE ERROR] Unknown char after ESC: 0x5c
+[048 22:12:16.269078] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86CameraAccessEnable
+> Warning:          Could not resolve keysym XF86CameraAccessDisable
+> Warning:          Could not resolve keysym XF86CameraAccessToggle
+> Warning:          Could not resolve keysym XF86NextElement
+> Warning:          Could not resolve keysym XF86PreviousElement
+> Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+> Warning:          Could not resolve keysym XF86MarkWaypoint
+> Warning:          Could not resolve keysym XF86Sos
+> Warning:          Could not resolve keysym XF86NavChart
+> Warning:          Could not resolve keysym XF86FishingChart
+> Warning:          Could not resolve keysym XF86SingleRangeRadar
+> Warning:          Could not resolve keysym XF86DualRangeRadar
+> Warning:          Could not resolve keysym XF86RadarOverlay
+> Warning:          Could not resolve keysym XF86TraditionalSonar
+> Warning:          Could not resolve keysym XF86ClearvuSonar
+> Warning:          Could not resolve keysym XF86SidevuSonar
+> Warning:          Could not resolve keysym XF86NavInfo
+Errors from xkbcomp are not fatal to the X server
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported maximum keycode 708, clipping.
+>                   X11 cannot support keycodes above 255.
+Errors from xkbcomp are not fatal to the X server
+[048 22:12:36.181927] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:12:36.181954] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.261: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.261: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.261: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.261: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.261: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.262: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.262: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:5435): Gtk-WARNING **: 22:12:46.262: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:5437): Gtk-WARNING **: 22:12:46.267: Theme parsing error: gtk.css:37:17: unknown value for property
+[048 22:13:43.702042] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:6306): Gtk-WARNING **: 22:15:52.319: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:6308): Gtk-WARNING **: 22:15:52.324: Theme parsing error: gtk.css:37:17: unknown value for property
+
+** (wlogout:6308): WARNING **: 22:15:52.381: style.css:2:19Not a valid image
+
+** (wlogout:6306): WARNING **: 22:15:52.382: style.css:2:19Not a valid image
+[048 22:16:35.394742] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[048 22:16:49.538614] [PARSE ERROR] Unrecognized DCS code: 0x7a
+[048 22:16:49.538650] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: ' ' and end_modifier: '%' and parameters: '0'
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:6517): Gtk-WARNING **: 22:17:00.997: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:6519): Gtk-WARNING **: 22:17:00.998: Theme parsing error: gtk.css:37:17: unknown value for property
+[048 22:17:10.558403] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:17:10.558435] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:17:10.558445] [PARSE ERROR] The application is trying to use xterm's modifyOtherKeys. This is superseded by the kitty keyboard protocol: https://sw.kovidgoyal.net/kitty/keyboard-protocol/ the application should be updated to use that
+[048 22:17:23.077668] [glfw error 65544]: process_desktop_settings: failed with error: [org.freedesktop.DBus.Error.UnknownMethod] No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[048 22:17:23.251302] [PARSE ERROR] Unknown char after ESC: 0x6b
+[048 22:17:23.251344] [PARSE ERROR] Unknown char after ESC: 0x5c
+[048 22:17:23.251356] [PARSE ERROR] Unknown char after ESC: 0x6b
+[048 22:17:23.251366] [PARSE ERROR] Unknown char after ESC: 0x5c
+[048 22:17:31.626225] [PARSE ERROR] Unknown char after ESC: 0x6b
+[048 22:17:31.626300] [PARSE ERROR] Unknown char after ESC: 0x5c
+[048 22:17:35.959171] [PARSE ERROR] Unknown char after ESC: 0x6b
+[048 22:17:35.959208] [PARSE ERROR] Unknown char after ESC: 0x5c
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:7026): Gtk-WARNING **: 22:21:19.297: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:7028): Gtk-WARNING **: 22:21:19.307: Theme parsing error: gtk.css:37:17: unknown value for property
+Warning: disabling flag --expose_wasm due to conflicting flags
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:7474): Gtk-WARNING **: 22:23:36.164: Theme parsing error: gtk.css:37:17: unknown value for property
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.171: Theme parsing error: gtk.css:2:25: '      padding' is not a valid property name
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.172: Theme parsing error: gtk.css:6:28: '      box-shadow' is not a valid property name
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.172: Theme parsing error: gtk.css:7:30: '      border-style' is not a valid property name
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.172: Theme parsing error: gtk.css:8:24: '      margin' is not a valid property name
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.172: Theme parsing error: gtk.css:9:31: '      border-radius' is not a valid property name
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.172: Theme parsing error: gtk.css:13:31: '      border-radius' is not a valid property name
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.172: Theme parsing error: gtk.css:20:34: '      background-image' is not a valid property name
+
+(wlogout:7476): Gtk-WARNING **: 22:23:36.172: Theme parsing error: gtk.css:37:17: unknown value for property
+[KA: -00:00:00 / 00:00:05 (0%)[KA: 00:00:00 / 00:00:05 (1%)[KA: 00:00:00 / 00:00:05 (2%)[KA: 00:00:00 / 00:00:05 (3%)[KA: 00:00:00 / 00:00:05 (4%)[KA: 00:00:00 / 00:00:05 (5%)[KA: 00:00:00 / 00:00:05 (6%)[KA: 00:00:00 / 00:00:05 (8%)[KA: 00:00:00 / 00:00:05 (9%)[KA: 00:00:00 / 00:00:05 (10%)[KA: 00:00:00 / 00:00:05 (11%)[KA: 00:00:00 / 00:00:05 (12%)[KA: 00:00:00 / 00:00:05 (13%)[KA: 00:00:00 / 00:00:05 (14%)[KA: 00:00:00 / 00:00:05 (16%)[KA: 00:00:00 / 00:00:05 (18%)[KA: 00:00:01 / 00:00:05 (19%)[KA: 00:00:01 / 00:00:05 (20%)[KA: 00:00:01 / 00:00:05 (21%)[KA: 00:00:01 / 00:00:05 (22%)[KA: 00:00:01 / 00:00:05 (23%)[KA: 00:00:01 / 00:00:05 (24%)[KA: 00:00:01 / 00:00:05 (25%)[KA: 00:00:01 / 00:00:05 (26%)[KA: 00:00:01 / 00:00:05 (27%)[KA: 00:00:01 / 00:00:05 (29%)[KA: 00:00:01 / 00:00:05 (30%)[KA: 00:00:01 / 00:00:05 (31%)[KA: 00:00:01 / 00:00:05 (33%)[KA: 00:00:01 / 00:00:05 (34%)[KA: 00:00:01 / 00:00:05 (35%)[KA: 00:00:01 / 00:00:05 (36%)[KA: 00:00:01 / 00:00:05 (37%)[KA: 00:00:02 / 00:00:05 (38%)[KA: 00:00:02 / 00:00:05 (39%)[KA: 00:00:02 / 00:00:05 (40%)[KA: 00:00:02 / 00:00:05 (41%)[KA: 00:00:02 / 00:00:05 (43%)[KA: 00:00:02 / 00:00:05 (44%)[KA: 00:00:02 / 00:00:05 (45%)[KA: 00:00:02 / 00:00:05 (46%)[KA: 00:00:02 / 00:00:05 (47%)[KA: 00:00:02 / 00:00:05 (48%)[KA: 00:00:02 / 00:00:05 (50%)[KA: 00:00:02 / 00:00:05 (51%)[KA: 00:00:02 / 00:00:05 (52%)[KA: 00:00:02 / 00:00:05 (53%)[KA: 00:00:02 / 00:00:05 (54%)[KA: 00:00:02 / 00:00:05 (55%)[KA: 00:00:03 / 00:00:05 (56%)[KA: 00:00:03 / 00:00:05 (58%)[KA: 00:00:03 / 00:00:05 (59%)[KA: 00:00:03 / 00:00:05 (60%)[KA: 00:00:03 / 00:00:05 (61%)[KA: 00:00:03 / 00:00:05 (62%)[KA: 00:00:03 / 00:00:05 (63%)[KA: 00:00:03 / 00:00:05 (65%)[KA: 00:00:03 / 00:00:05 (66%)[KA: 00:00:03 / 00:00:05 (67%)[KA: 00:00:03 / 00:00:05 (68%)[KA: 00:00:03 / 00:00:05 (70%)[KA: 00:00:03 / 00:00:05 (71%)[KA: 00:00:03 / 00:00:05 (72%)[KA: 00:00:03 / 00:00:05 (73%)[KA: 00:00:03 / 00:00:05 (74%)[KA: 00:00:04 / 00:00:05 (75%)[KA: 00:00:04 / 00:00:05 (76%)[KA: 00:00:04 / 00:00:05 (77%)[KA: 00:00:04 / 00:00:05 (78%)[KA: 00:00:04 / 00:00:05 (79%)[KA: 00:00:04 / 00:00:05 (81%)[KA: 00:00:04 / 00:00:05 (82%)[KA: 00:00:04 / 00:00:05 (83%)[KA: 00:00:04 / 00:00:05 (85%)[KA: 00:00:04 / 00:00:05 (86%)[KA: 00:00:04 / 00:00:05 (87%)[KA: 00:00:04 / 00:00:05 (89%)[KA: 00:00:04 / 00:00:05 (90%)[KA: 00:00:04 / 00:00:05 (91%)[KA: 00:00:04 / 00:00:05 (92%)[KA: 00:00:05 / 00:00:05 (93%)[KA: 00:00:05 / 00:00:05 (95%)
+(EE) could not connect to wayland server

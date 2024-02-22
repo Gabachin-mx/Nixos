@@ -1,0 +1,93 @@
+<!-- =====================================================================  -->
+<!-- This file contains AbiSuite Preferences.  AbiSuite is a suite of Open  -->
+<!-- Source desktop applications developed by AbiSource, Inc.  Information  -->
+<!-- about this application can be found at http://www.abisource.com        -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<!--         Build_ID          = unknown -->
+<!--         Build_Version     = 3.0.5 -->
+<!--         Build_CompileTime = 15:48:50 -->
+<!--         Build_CompileDate = Jul  3 2021 -->
+
+<AbiPreferences app="abiword" ver="1.0">
+
+	<Select
+	    scheme="_custom_"
+	    autosaveprefs="1"
+	    useenvlocale="1"
+	/>
+
+	<!-- The following scheme, _builtin_, contains the built-in application
+	**** defaults and adjusted by the installation system defaults.  This scheme
+	**** is only written here as a reference.  Any schemes following this one
+	**** only list values that deviate from the built-in values.
+	**** Items values must observe XML encoding for double quote (&quot;),
+	**** ampersand (&amp;), and angle brackets (&lt; and &gt;).
+	-->
+
+	<Scheme
+		name="_builtin_"
+		ColorRevision8="0485c3"
+		OptionsTabNumber="0"
+		ColorFieldOffset="0c0c0c"
+		KeyBindings="default"
+		ChangeLangWithKeyboard="0"
+		StatusBarVisible="1"
+		LatinLigatures="0"
+		ColorShowPara="7f7f7f"
+		DefaultGraphics="0"
+		RulerVisible="1"
+		ExtraBarVisible="0"
+		CloseOnLastDoc="0"
+		InsertModeToggle="0"
+		InnerQuoteStyle="1"
+		AutoGrammarCheck="0"
+		SaveContextGlyphs="0"
+		ColorRevision3="ff9708"
+		SpellCheckDirectory="dictionary"
+		StringSet="en-US"
+		ColorMargin="7f7f7f"
+		CursorBlink="1"
+		/>
+
+	<Scheme
+		name="_custom_"
+		ZoomPercentage="81"
+		/>
+
+	<Recent
+		max="9"
+		name1="file:///run/media/paul/7b266343-ee12-4e6b-bff5-77307f299ba0/Vostro/paul/.xinitrc"
+		/>
+
+	<Geometry
+		width="760"
+		height="520"
+		posx="0"
+		posy="0"
+		flags="0"
+		/>
+
+	<Log>
+	<!-- [Sat 03 Feb 2024 08:43:12 PM CST] message: XAP_ModuleManager::loadModule - (L104): loading /nix/store/qf8cl11hw64pa3igzsk2rjzafbhdyljc-abiword-3.0.5/lib/abiword-3.0/plugins/openxml.so -->
+	<!-- [Sat 03 Feb 2024 08:43:12 PM CST] message: XAP_ModuleManager::loadModule - (L189): success /nix/store/qf8cl11hw64pa3igzsk2rjzafbhdyljc-abiword-3.0.5/lib/abiword-3.0/plugins/openxml.so -->
+	<!-- [Sat 03 Feb 2024 08:43:12 PM CST] message: XAP_ModuleManager::loadModule - (L104): loading /nix/store/qf8cl11hw64pa3igzsk2rjzafbhdyljc-abiword-3.0.5/lib/abiword-3.0/plugins/opendocument.so -->
+	<!-- [Sat 03 Feb 2024 08:43:12 PM CST] message: XAP_ModuleManager::loadModule - (L189): success /nix/store/qf8cl11hw64pa3igzsk2rjzafbhdyljc-abiword-3.0.5/lib/abiword-3.0/plugins/opendocument.so -->
+	</Log>
+
+	<Fonts include="0">
+	<!--
+	     Here you can put a list of fonts to limit the fonts that appear 
+	     in the font UI:
+
+		<Face name="some face"/>
+
+	     The include attribute of 'Fonts' controls the significance of 
+	     the list:
+	     include="1" - limit fonts to those listed
+	     include="0" - exclude the listed fonts from the system font list
+	-->
+	</Fonts>
+
+</AbiPreferences>

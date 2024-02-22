@@ -1,0 +1,48 @@
+2024/02/22-08:49:05.100 4 Reusing MANIFEST /home/paul/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2024/02/22-08:49:05.101 4 Recovering log #186
+2024/02/22-08:49:05.103 4 Reusing old log /home/paul/.config/google-chrome/Default/Session Storage/000186.log 
+2024/02/22-08:55:53.570 6 Level-0 table #190: started
+2024/02/22-08:55:53.577 6 Level-0 table #190: 109442 bytes OK
+2024/02/22-08:55:53.584 6 Delete type=0 #186
+2024/02/22-08:58:09.129 6 Level-0 table #192: started
+2024/02/22-08:58:09.140 6 Level-0 table #192: 87910 bytes OK
+2024/02/22-08:58:09.144 6 Delete type=0 #189
+2024/02/22-09:00:23.900 4 Level-0 table #194: started
+2024/02/22-09:00:23.925 4 Level-0 table #194: 226010 bytes OK
+2024/02/22-09:00:23.936 4 Delete type=0 #191
+2024/02/22-09:00:23.937 4 Compacting 4@0 + 1@1 files
+2024/02/22-09:00:23.981 4 Generated table #195@0: 3996 keys, 808944 bytes
+2024/02/22-09:00:23.981 4 Compacted 4@0 + 1@1 files => 808944 bytes
+2024/02/22-09:00:23.985 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/22-09:00:23.986 4 Delete type=2 #192
+2024/02/22-09:00:23.986 4 Delete type=2 #187
+2024/02/22-09:00:23.986 4 Delete type=2 #194
+2024/02/22-09:00:23.986 4 Delete type=2 #190
+2024/02/22-09:00:23.986 4 Delete type=2 #185
+2024/02/22-09:04:05.434 4 Level-0 table #197: started
+2024/02/22-09:04:05.444 4 Level-0 table #197: 84731 bytes OK
+2024/02/22-09:04:05.449 4 Delete type=0 #193
+2024/02/22-09:04:54.068 6 Level-0 table #199: started
+2024/02/22-09:04:54.081 6 Level-0 table #199: 89566 bytes OK
+2024/02/22-09:04:54.087 6 Delete type=0 #196
+2024/02/22-09:07:11.547 4 Level-0 table #201: started
+2024/02/22-09:07:11.558 4 Level-0 table #201: 90922 bytes OK
+2024/02/22-09:07:11.562 4 Delete type=0 #198
+2024/02/22-09:12:23.554 6 Level-0 table #203: started
+2024/02/22-09:12:23.565 6 Level-0 table #203: 84103 bytes OK
+2024/02/22-09:12:23.570 6 Delete type=0 #200
+2024/02/22-09:12:23.570 6 Compacting 4@0 + 1@1 files
+2024/02/22-09:12:23.590 6 Generated table #204@0: 4034 keys, 976732 bytes
+2024/02/22-09:12:23.590 6 Compacted 4@0 + 1@1 files => 976732 bytes
+2024/02/22-09:12:23.593 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/22-09:12:23.594 6 Delete type=2 #195
+2024/02/22-09:12:23.594 6 Delete type=2 #197
+2024/02/22-09:12:23.594 6 Delete type=2 #199
+2024/02/22-09:12:23.594 6 Delete type=2 #203
+2024/02/22-09:12:23.594 6 Delete type=2 #201
+2024/02/22-09:37:41.896 6 Level-0 table #206: started
+2024/02/22-09:37:41.907 6 Level-0 table #206: 105559 bytes OK
+2024/02/22-09:37:41.912 6 Delete type=0 #202
+2024/02/22-10:29:29.414 6 Level-0 table #208: started
+2024/02/22-10:29:29.420 6 Level-0 table #208: 32346 bytes OK
+2024/02/22-10:29:29.424 6 Delete type=0 #205

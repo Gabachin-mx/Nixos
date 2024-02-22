@@ -1,0 +1,46 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/favicon19.png",
+         "38": "img/favicon38.png"
+      },
+      "default_title": "Open WhatsApp"
+   },
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "https://site.watoolkit.com/wp-content/uploads/2021/11/icon.jpg",
+         "is_default": true,
+         "keyword": "watoolkit",
+         "name": "Web ",
+         "search_url": "https://site.watoolkit.com/search?q={searchTerms}",
+         "suggest_url": "https://site.watoolkit.com/search?q={searchTerms}"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "style.css", "lib/drop/css/drop-theme-basic.css" ],
+      "js": [ "script.js", "lib/drop/drop.js" ],
+      "matches": [ "*://*.whatsapp.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://track.clickcrystal.com; object-src 'self'",
+   "description": "A set of useful and lightweight tools for WhatsApp™ Web client.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/favicon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAouCzVdYUSXykSKkaTMB4CpCjmLt6/UH4Eeqqx1GPolBNvvHsE+lD8/g/+Op7OyeTJLSd1tb5w4JfUae7TA92CYvBvIGP20J1znqS2OFIfQu9GjeZ/xoMO3ci94yolInT6CfhIcDfZQzzbeNkkOXua6Df7bvhRgvNVVlhrhiCHdzj6jjr6HTt1YU+BYN4A197XEdbfvflHgLoOVanqMmt3zFE2ngwyi2R4fjkQgtavMROQe0qbUDpHUZRoR2Wvmc5bN1KdipxacDgetgd/SKT/4vzT0svWysju91NBb5O2pFizdU1JkWqvy5kEpVjP3pAhY9AAQktHPeXJT5APKyIIQIDAQAB",
+   "manifest_version": 2,
+   "name": "WAToolkit",
+   "options_page": "options.html",
+   "permissions": [ "*://*.whatsapp.com/*", "tabs", "background", "notifications", "webRequest", "webRequestBlocking" ],
+   "short_name": "WAToolkit",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4",
+   "web_accessible_resources": [ "img/iconMenuItem24.png", "img/checkboxChecked.png", "img/checkboxUnchecked.png" ]
+}

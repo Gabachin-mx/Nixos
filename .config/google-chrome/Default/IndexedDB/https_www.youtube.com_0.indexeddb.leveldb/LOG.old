@@ -1,0 +1,10 @@
+2024/02/20-10:06:16.893 801 Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/20-10:06:16.894 801 Recovering log #99
+2024/02/20-10:06:16.934 801 Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000099.log 
+2024/02/20-10:06:20.609 800 Level-0 table #104: started
+2024/02/20-10:06:20.648 800 Level-0 table #104: 2281100 bytes OK
+2024/02/20-10:06:20.668 800 Delete type=0 #99
+2024/02/20-10:06:24.909 801 Compacting 1@1 + 1@2 files
+2024/02/20-10:06:24.942 801 Generated table #105@1: 535 keys, 73642 bytes
+2024/02/20-10:06:24.942 801 Compacted 1@1 + 1@2 files => 73642 bytes
+2024/02/20-10:06:24.948 801 compacted to: files[ 0 0 1 0 0 0 0 ]
