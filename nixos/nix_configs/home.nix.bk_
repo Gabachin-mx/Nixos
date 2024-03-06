@@ -28,9 +28,6 @@
 
     zoxide
     ncdu
-    emacsPackages.vterm
-    zellij
-
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -61,20 +58,15 @@
     # '';
   };
 
- programs.zoxide = {
-    enable = true;
-    enableBashIntegration = true;
-    enableZshIntegration = true;
-    enableFishIntegration = true;
-};
+ # programs.zoxide = {
+ #    enable = true;
+ #  };
 
-programs.zellij = {
-    enable = true;
-    enableBashIntegration = true;
-    enableZshIntegration = true;
-    enableFishIntegration = true;
-};
-
+ # enable z (better than cd)
+programs.zoxide.enableBashIntegration = true;
+programs.zoxide.enableFishIntegration = true;
+programs.zoxide.enable = true;
+programs.zoxide.enableZshIntegration = true;
 
 programs.yt-dlp = {
     enable = true;
@@ -100,20 +92,42 @@ programs.yt-dlp = {
   #  /etc/profiles/per-user/paul/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-     EDITOR = "vim";
+     EDITOR = "emacs";
   };
 
- programs.emacs = {
+
+  # add directories to $PATH 
+  home.sessionPath = [
+    "~/.emacs.d/bin"
+  ];
+
+  programs.emacs.enable = true;
+  programs.emacs.extraPackages = (
+     epkgs: (with epkgs; [
+               better-defaults
+               material-theme
+               helm-org-rifle
+               emacsql
+               emacsql-sqlite
+               afternoon-theme
+               workgroups2
+               treemacs
+               projectile
+               slime
+               yaml
+               yaml-mode
+               markdown-mode
+               ox-pandoc
+               use-package     
+               notmuch   
+            ])
+   );
+
+  # Let Home Manager install and manage itself.
+
+  services.emacs = {
     enable = true;
-    package = pkgs.emacs;
-    extraPackages = epkgs: [
-      epkgs.vterm
-      epkgs.openwith
+};
 
-    ];
-  };
-services.emacs.startWithUserSession = true;
-
-  # Let Home Manager intall and manage itself.
   programs.home-manager.enable = true;
 }

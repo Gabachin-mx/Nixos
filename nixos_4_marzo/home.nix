@@ -6,9 +6,7 @@
   home.username = "paul";
   home.homeDirectory = "/home/paul";
 
-  imports = [
-    ./tmux.nix
-  ];
+  imports = [ ./tmux.nix  ];
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -21,16 +19,12 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  home.packages = with pkgs; [
+  home.packages = [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
      # pkgs.hello
 
-    zoxide
-    ncdu
-    emacsPackages.vterm
-    zellij
-
+pkgs.zoxide
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -61,20 +55,15 @@
     # '';
   };
 
- programs.zoxide = {
-    enable = true;
-    enableBashIntegration = true;
-    enableZshIntegration = true;
-    enableFishIntegration = true;
-};
+ # programs.zoxide = {
+ #    enable = true;
+ #  };
 
-programs.zellij = {
-    enable = true;
-    enableBashIntegration = true;
-    enableZshIntegration = true;
-    enableFishIntegration = true;
-};
-
+ # enable z (better than cd)
+programs.zoxide.enableBashIntegration = true;
+programs.zoxide.enableFishIntegration = true;
+programs.zoxide.enable = true;
+programs.zoxide.enableZshIntegration = true;
 
 programs.yt-dlp = {
     enable = true;
@@ -103,17 +92,6 @@ programs.yt-dlp = {
      EDITOR = "vim";
   };
 
- programs.emacs = {
-    enable = true;
-    package = pkgs.emacs;
-    extraPackages = epkgs: [
-      epkgs.vterm
-      epkgs.openwith
-
-    ];
-  };
-services.emacs.startWithUserSession = true;
-
-  # Let Home Manager intall and manage itself.
+  # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }

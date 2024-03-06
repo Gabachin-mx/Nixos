@@ -203,6 +203,7 @@ programs.zsh = {
     ];
   };
 
+
 # # Waybar 
 # nixpkgs.overlays = [
 #   (self: super: {
@@ -212,10 +213,10 @@ programs.zsh = {
 #   })
 # ];
 
-  programs.waybar = {
-    enable = true;
-    package = pkgs.waybar;
-  };
+programs.waybar = {
+  enable = true;
+  package = pkgs.waybar;
+};
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -229,7 +230,6 @@ programs.zsh = {
             abiword
             alacritty
             bc
-            clang
             easyeffects
             escrotum
             eza
@@ -264,7 +264,6 @@ programs.zsh = {
             ncdu
             ninja
             nitrogen
-            nixfmt
             p7zip
             pamixer
             pavucontrol
@@ -281,7 +280,6 @@ programs.zsh = {
             rofi
             rsync
             st
-            statix # syntax checker for nix, for doom emacs
             sxhkd
             sxhkd
             ueberzugpp
@@ -317,8 +315,6 @@ programs.zsh = {
     swayidle # Idle management daemon for Wayland
     swaylock # Screen locker for Wayland
     swaylock-effects
-    sxiv
-      imagemagick
     ulauncher # A fast application launcher for Linux, written in Python, using GTK
     waybar
     wayfire
@@ -442,18 +438,9 @@ programs.zsh = {
     services.udisks2.enable = true;
 
      programs.fish.enable = true;
-    # users.extraUsers.paul = {
-    #     shell = pkgs.fish;
-    # };
-
-    # enable emacs daemon
-    services.emacs = {
-     enable = true;
-     defaultEditor = true;
-     package = pkgs.emacs; # replace with emacs-gtk, or a version provided by the community overlay if desired.
+    users.extraUsers.paul = {
+        shell = pkgs.fish;
     };
-
-    users.defaultUserShell = pkgs.zsh;
 
   fonts = {
     enableDefaultPackages = true;
@@ -486,7 +473,6 @@ programs.zsh = {
       mplus-outline-fonts.githubRelease
       dina-font
       proggyfonts
-
       font-awesome
       powerline-fonts
       powerline-symbols

@@ -14,19 +14,14 @@
         "nixpkgs"; # Use system packages list where available
     };
 
-   sddm-sugar-candy-nix = {
+  sddm-sugar-candy-nix = {
     url = "gitlab:Zhaith-Izaliel/sddm-sugar-candy-nix";
     # Optional, by default this flake follows nixpkgs-unstable.
     inputs.nixpkgs.follows = "nixpkgs";
   };
-
-    emacs-overlay = {
-      url = "github:nix-community/emacs-overlay";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
  };
 
-   outputs = { self, nixpkgs, home-manager, sddm-sugar-candy-nix, emacs-overlay,... }: {
+  outputs = { self, nixpkgs, home-manager, sddm-sugar-candy-nix }: {
     nixosConfigurations = {
       paul = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";

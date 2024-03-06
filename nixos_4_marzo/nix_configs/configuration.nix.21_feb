@@ -34,44 +34,6 @@ nix = {
   # Hardware video acceleration via VA-API (to make youtube etc run cooler)
   hardware.opengl.extraPackages = with pkgs; [ intel-media-driver ];
 
-  boot.kernelPackages = pkgs.linuxPackages_latest;
-    boot.kernelParams = ["intel_pstate=disable"];
-
-services.thermald.enable = true;
-
-    services.tlp = {
-      enable = true;
-       settings = {
-        START_CHARGE_THRESH_BAT0=75;
-        STOP_CHARGE_THRESH_BAT0=80;
-
-        CPU_SCALING_GOVERNOR_ON_AC="schedutil";
-        CPU_SCALING_GOVERNOR_ON_BAT="schedutil";
-
-        CPU_SCALING_MIN_FREQ_ON_AC=800000;
-        CPU_SCALING_MAX_FREQ_ON_AC=3500000;
-        CPU_SCALING_MIN_FREQ_ON_BAT=800000;
-        CPU_SCALING_MAX_FREQ_ON_BAT=2300000;
-
-        # Enable audio power saving for Intel HDA, AC97 devices (timeout in secs).
-        # A value of 0 disables, >=1 enables power saving (recommended: 1).
-        # Default: 0 (AC), 1 (BAT)
-        SOUND_POWER_SAVE_ON_AC=0;
-        SOUND_POWER_SAVE_ON_BAT=1;
-
-        # Runtime Power Management for PCI(e) bus devices: on=disable, auto=enable.
-        # Default: on (AC), auto (BAT)
-        RUNTIME_PM_ON_AC="on";
-        RUNTIME_PM_ON_BAT="auto";
-
-        # Battery feature drivers: 0=disable, 1=enable
-        # Default: 1 (all)
-        NATACPI_ENABLE=1;
-        TPACPI_ENABLE=1;
-        TPSMAPI_ENABLE=1;
-      };
-    };
-
 ##### Networking Settings ######################################################
 
   networking = {
@@ -203,6 +165,7 @@ programs.zsh = {
     ];
   };
 
+
 # # Waybar 
 # nixpkgs.overlays = [
 #   (self: super: {
@@ -212,10 +175,10 @@ programs.zsh = {
 #   })
 # ];
 
-  programs.waybar = {
-    enable = true;
-    package = pkgs.waybar;
-  };
+programs.waybar = {
+  enable = true;
+  package = pkgs.waybar;
+};
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -229,7 +192,6 @@ programs.zsh = {
             abiword
             alacritty
             bc
-            clang
             easyeffects
             escrotum
             eza
@@ -264,7 +226,6 @@ programs.zsh = {
             ncdu
             ninja
             nitrogen
-            nixfmt
             p7zip
             pamixer
             pavucontrol
@@ -281,7 +242,6 @@ programs.zsh = {
             rofi
             rsync
             st
-            statix # syntax checker for nix, for doom emacs
             sxhkd
             sxhkd
             ueberzugpp
@@ -317,8 +277,6 @@ programs.zsh = {
     swayidle # Idle management daemon for Wayland
     swaylock # Screen locker for Wayland
     swaylock-effects
-    sxiv
-      imagemagick
     ulauncher # A fast application launcher for Linux, written in Python, using GTK
     waybar
     wayfire
@@ -442,18 +400,9 @@ programs.zsh = {
     services.udisks2.enable = true;
 
      programs.fish.enable = true;
-    # users.extraUsers.paul = {
-    #     shell = pkgs.fish;
-    # };
-
-    # enable emacs daemon
-    services.emacs = {
-     enable = true;
-     defaultEditor = true;
-     package = pkgs.emacs; # replace with emacs-gtk, or a version provided by the community overlay if desired.
+    users.extraUsers.paul = {
+        shell = pkgs.fish;
     };
-
-    users.defaultUserShell = pkgs.zsh;
 
   fonts = {
     enableDefaultPackages = true;
@@ -486,7 +435,6 @@ programs.zsh = {
       mplus-outline-fonts.githubRelease
       dina-font
       proggyfonts
-
       font-awesome
       powerline-fonts
       powerline-symbols

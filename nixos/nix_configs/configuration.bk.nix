@@ -37,6 +37,13 @@ nix = {
   boot.kernelPackages = pkgs.linuxPackages_latest;
     boot.kernelParams = ["intel_pstate=disable"];
 
+# enable emacs daemon
+  services.emacs = {
+    enable = true;
+    package = pkgs.emacs-gtk; # replace with emacs-gtk, or a version provided by the community overlay if desired.
+  };
+
+
 services.thermald.enable = true;
 
     services.tlp = {
@@ -264,7 +271,6 @@ programs.zsh = {
             ncdu
             ninja
             nitrogen
-            nixfmt
             p7zip
             pamixer
             pavucontrol
@@ -281,7 +287,6 @@ programs.zsh = {
             rofi
             rsync
             st
-            statix # syntax checker for nix, for doom emacs
             sxhkd
             sxhkd
             ueberzugpp
@@ -317,8 +322,6 @@ programs.zsh = {
     swayidle # Idle management daemon for Wayland
     swaylock # Screen locker for Wayland
     swaylock-effects
-    sxiv
-      imagemagick
     ulauncher # A fast application launcher for Linux, written in Python, using GTK
     waybar
     wayfire
@@ -342,6 +345,7 @@ programs.zsh = {
     bluez-tools
     distrobox
     docker
+    emacs
     filelight                           # View disk usage
     gimp                                # Image editor
     mpv                                 # Video player
@@ -385,9 +389,10 @@ programs.zsh = {
     gvfs # trash support for VSCode?
     lm_sensors
 
-### Programming (Rust) #####################################################
+### Programming #####################################################
 
     cargo                               # Rust package manager
+    cmake
     ncurses                             # Library to create Text User Interfaces
     pkg-config                           # Compiler helper tool
     rustc                               # Rust compiler
@@ -446,13 +451,6 @@ programs.zsh = {
     #     shell = pkgs.fish;
     # };
 
-    # enable emacs daemon
-    services.emacs = {
-     enable = true;
-     defaultEditor = true;
-     package = pkgs.emacs; # replace with emacs-gtk, or a version provided by the community overlay if desired.
-    };
-
     users.defaultUserShell = pkgs.zsh;
 
   fonts = {
@@ -486,7 +484,6 @@ programs.zsh = {
       mplus-outline-fonts.githubRelease
       dina-font
       proggyfonts
-
       font-awesome
       powerline-fonts
       powerline-symbols
