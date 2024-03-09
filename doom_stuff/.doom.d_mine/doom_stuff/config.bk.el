@@ -4,52 +4,7 @@
 ;; sync' after modifying this file!
 (beacon-mode 1)
 (xclip-mode 0)
-(focus-mode 0)
-(menu-bar-mode -1)
-(scroll-bar-mode 0)
-(tool-bar-mode 0)
-
-(defalias 'yes-or-no-p 'y-or-n-p)
-
-(line-number-mode 1)
-(column-number-mode 1)
-
-(setq inhibit-startup-message t)
-(setq initial-scratch-message nil)
-
-;; disable test is read only
-(defun my-command-error-function (data context caller)
-  "Ignore the buffer-read-only signal; pass the rest to the default handler."
-  (when (not (eq (car data) 'text-read-only))
-    (command-error-default-function data context caller)))
-
-(setq command-error-function #'my-command-error-function)
-
-;; Emacs system customizations go on a separate file
-(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-
-;; autosave in tmp directory
-(defconst emacs-tmp-dir (expand-file-name (format "emacs%d" (user-uid)) temporary-file-directory))
-(setq backup-directory-alist
-    `((".*" . ,emacs-tmp-dir)))
-(setq auto-save-file-name-transforms
-    `((".*" ,emacs-tmp-dir t)))
-(setq auto-save-list-file-prefix
-    emacs-tmp-dir)
-
-;; no lockfiles
-(setq create-lockfiles nil)
-
-;; Enable auto pairs
-(electric-pair-mode 1)
-
-;; Enable visual-line-mode for word wrap
-(global-visual-line-mode t)
-
-;;Standard indentation & no tabs
-(setq standard-indent 2)
-(setq-default indent-tabs-mode nil)
-
+(focus-mode t)
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
 ;; (setq user-full-name "John Doe"
@@ -75,6 +30,10 @@
 ;; refresh your font settings. If Emacs still can't find your font, it likely
 ;; wasn't installed correctly. Font issues are rarely Doom issues!
 ;;
+(custom-set-faces!
+  '(font-lock-comment-face :slant italic)
+  '(font-lock-keyword-face :slant italic))
+
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
@@ -94,8 +53,8 @@
   '(doom-modeline-buffer-modified :foreground "orange"))
 
  ;; opacity
-(set-frame-parameter nil 'alpha-background 95)
-;; (add-to-list 'default-frame-alist '(alpha-background . 76))
+(set-frame-parameter nil 'alpha-background 70)
+(add-to-list 'default-frame-alist '(alpha-background . 76))
 
  (defun toggle-transparency ()
    (interactive)
@@ -137,17 +96,10 @@
 (setq org-directory "~/org/")
 
 ;; force doom to open at dashboard
-;; (setq doom-fallback-buffer-name "*dashboard*")
-;; (setq fancy-splash-image "~/.doom.d/themes/true.png")
-;; (setq +doom-dashboard-pwd-policy "~")
-
-
-(setq initial-buffer-choice (lambda () (get-buffer-create "*doom*"))) ;; necessary for emacsclient
-;;
-(setq dashboard-startup-banner "~/.doom.d/themes/true.png")
+;;(setq doom-fallback-buffer-name "*dashboard*")
 
 ;; set opacity of frames
-(add-to-list 'default-frame-alist '(alpha-background . 95))
+(add-to-list 'default-frame-alist '(alpha-background . 80))
 
 ;; backup files
 (setq auto-save-default t
@@ -162,7 +114,14 @@
 ;; Move cursor past last character with S-$
 (setq evil-move-beyond-eol t)
 ;;
-;; The exceptions to this rule:
+;; Show status bar always
+;;(after! core-ui (menu-bar-mode 1))
+(menu-bar-mode 1)
+
+;; Disable toolbar
+(tool-bar-mode 0)
+;;
+;; The exceptions to this rule:
 ;;
 ;;   - Setting file/directory variables (like `org-directory')
 ;;   - Setting variables which explicitly tell you to set them before their
@@ -264,73 +223,6 @@
       evil-insert-state-cursor '(bar "medium sea green")
       evil-visual-state-cursor '(hollow "orange"))
 
-(use-package evil-terminal-cursor-changer
-:ensure t
-:init
-(setq evil-motion-state-cursor 'box)  ; █
-;; (setq evil-visual-state-cursor 'box)  ; █
-;; (setq evil-normal-state-cursor 'box)  ; █
-;; (setq evil-insert-state-cursor 'bar)  ; ⎸
-(setq evil-emacs-state-cursor  'hbar) ; _
-:config
-(evil-terminal-cursor-changer-activate))
-
-; make ESC quit everything
-(defun minibuffer-keyboard-quit ()
-(interactive)
-(if (and delete-selection-mode transient-mark-mode mark-active)
-    (setq deactivate-mark  t)
-(when (get-buffer "*Completions*") (delete-windows-on "*Completions*"))
-(abort-recursive-edit)))
-
-(define-key evil-visual-state-map [escape] 'keyboard-quit)
-(define-key minibuffer-local-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-ns-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-completion-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-must-match-map [escape] 'minibuffer-keyboard-quit)
-(define-key minibuffer-local-isearch-map [escape] 'minibuffer-keyboard-quit)
-
-;; autoconplete
-(use-package company
-  :ensure t
-  :config
-  (global-company-mode t)
-  (setq company-global-modes '(not org-mode)))
-
-(define-key company-mode-map (kbd "TAB") 'company-complete)
-
-(use-package emojify
-  :ensure t
-  :init
-    (add-hook 'after-init-hook #'global-emojify-mode)
-    (setq emojify-display-style 'unicode))
-
-(use-package yaml-mode :ensure t)
-
-;; Type script
-(use-package tide
-  :ensure t)
-
-(defun setup-tide-mode ()
-  (interactive)
-  (tide-setup)
-  (flycheck-mode +1)
-  (setq flycheck-check-syntax-automatically '(save mode-enabled))
-  (eldoc-mode +1)
-  (tide-hl-identifier-mode +1)
-  ;; company is an optional dependency. You have to
-  ;; install it separately via package-install
-  ;; `M-x package-install [ret] company`
-  (company-mode +1))
-
-;; aligns annotation to the right hand side
-(setq company-tooltip-align-annotations t)
-
-(setq tide-tsserver-executable "node_modules/.bin/tsserver")
-
-(add-hook 'web-mode-hook #'setup-tide-mode)
-
-
 
 (map! :leader
       (:prefix ("d" . "dired")
@@ -371,7 +263,7 @@
   (kbd "; e") 'epa-dired-do-encrypt)
 ;; Get file icons in dired
 ;; With dired-open plugin, you can launch external programs for certain extensions
-;; For example, I setrall .png files to open in 'sxiv' and all .mp4 files to open in 'mpv'
+;; For example, I set all .png files to open in 'sxiv' and all .mp4 files to open in 'mpv'
 (setq dired-open-extensions '(("gif" . "sxiv")
                               ("jpg" . "sxiv")
                               ("png" . "sxiv")
@@ -496,89 +388,3 @@ _h_ decrease width    _l_ increase width
   (require 'tree-sitter-langs)
   (global-tree-sitter-mode)
   (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
-
-;; ;; make unmatched parens stand out more with a strikethrough.
-;; (set-face-attribute 'rainbow-delimiters-unmatched-face nil
-;;                     :foreground 'unspecified
-;;                     :inherit 'show-paren-mismatch
-;;                     :strike-through t)
-
-;; (add-hook 'emacs-lisp-mode-hook 'rainbow-delimiters-mode)
-;; (add-hook 'lisp-mode-hook 'rainbow-delimiters-mode)
-;; (add-hook 'scheme-mode-hook 'rainbow-delimiters-mode)
-;; (add-hook 'c-mode-common-hook 'rainbow-delimiters-mode)
-
-;; ;; Insert closing parens automagically
-(use-package elec-pair
-  :demand
-  :config
-  (electric-pair-mode 1))
-
-;; open file as root
-(defun do.minimal.misc/sudo-open ()
-  "Like `find-file', but with root rights using TRAMP"
-  (interactive)
-  (let ((file (read-file-name "Open as root: ")))
-    (unless (file-writable-p file)
-      (find-file (concat "/sudo:root@localhost:" file)))))
-;; bind to a key
-(global-set-key (kbd "C-x F") #'do.minimal.misc/sudo-open)
-
-    (use-package! xclip
-        :config
-        (setq xclip-program "wl-copy")
-        (setq xclip-select-enable-clipboard t)
-        (setq xclip-mode t)
-        (setq xclip-method (quote wl-copy)))
-
-
-(add-to-list 'load-path "~/.doom.d/lisp")
-
-;; (use-package welcome-dashboard
-;;   :ensure nil ;; when using local file and not straight nor use-package
-;;   :config
-;;   (setq welcome-dashboard-latitude 56.7365
-;;         welcome-dashboard-longitude 16.2981 ;; latitude and longitude must be set to show weather information
-;;         welcome-dashboard-use-nerd-icons t ;; Use nerd icons instead of all-the-icons
-;;         welcome-dashboard-path-max-length 75
-;;         welcome-dashboard-use-fahrenheit nil ;; show in celcius or fahrenheit.
-;;         welcome-dashboard-min-left-padding 10
-;;         welcome-dashboard-image-file "~/.doom.d/themes/true.png"
-;;         welcome-dashboard-image-width 200
-;;         welcome-dashboard-image-height 169
-;;         welcome-dashboard-title "Hey Paulie")
-;;   (welcome-dashboard-create-welcome-hook))
-
-;; use-package with package.el:
-(use-package dashboard
-  :ensure t
-  :config
-  (dashboard-setup-startup-hook))
-
-(setq initial-buffer-choice (lambda () (get-buffer-create "*dashboard*")))
-
-;; Set the title
-(setq dashboard-banner-logo-title "Hey Paulie")
-;; Set the banner
-(setq dashboard-startup-banner "~/.doom.d/themes/true.png")
-;; Value can be
-;; - nil to display no banner
-;; - 'official which displays the official emacs logo
-;; - 'logo which displays an alternative emacs logo
-;; - 1, 2 or 3 which displays one of the text banners
-;; - "path/to/your/image.gif", "path/to/your/image.png", "path/to/your/text.txt" or "path/to/your/image.xbm" which displays whatever gif/image/text/xbm you would prefer
-;; - a cons of '("path/to/your/image.png" . "path/to/your/text.txt")
-
-;; Content is not centered by default. To center, set
-(setq dashboard-center-content t)
-;; vertically center content
-(setq dashboard-vertically-center-content t)
-
-;; To disable shortcut "jump" indicators for each section, set
-(setq dashboard-show-shortcuts nil)
-
-(setq dashboard-items '((recents   . 5)
-                        (bookmarks . 5)
-                        (projects  . 5)
-                        (agenda    . 5)
-                        (registers . 5)))

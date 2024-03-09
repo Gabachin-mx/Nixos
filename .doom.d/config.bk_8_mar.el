@@ -94,7 +94,7 @@
   '(doom-modeline-buffer-modified :foreground "orange"))
 
  ;; opacity
-(set-frame-parameter nil 'alpha-background 95)
+(set-frame-parameter nil 'alpha-background 70)
 ;; (add-to-list 'default-frame-alist '(alpha-background . 76))
 
  (defun toggle-transparency ()
@@ -147,7 +147,7 @@
 (setq dashboard-startup-banner "~/.doom.d/themes/true.png")
 
 ;; set opacity of frames
-(add-to-list 'default-frame-alist '(alpha-background . 95))
+(add-to-list 'default-frame-alist '(alpha-background . 80))
 
 ;; backup files
 (setq auto-save-default t
@@ -534,8 +534,8 @@ _h_ decrease width    _l_ increase width
 
 (add-to-list 'load-path "~/.doom.d/lisp")
 
-;; (use-package welcome-dashboard
-;;   :ensure nil ;; when using local file and not straight nor use-package
+;; (use-package welcome-d(setq fancy-splash-image (concat doom-private-dir "splash.png"))(setq fancy-splash-image (concat doom-private-dir "splash.png"))ashboard
+;;   ;; :ensure nil ;; when using local file and not straight nor use-package
 ;;   :config
 ;;   (setq welcome-dashboard-latitude 56.7365
 ;;         welcome-dashboard-longitude 16.2981 ;; latitude and longitude must be set to show weather information
@@ -543,42 +543,8 @@ _h_ decrease width    _l_ increase width
 ;;         welcome-dashboard-path-max-length 75
 ;;         welcome-dashboard-use-fahrenheit nil ;; show in celcius or fahrenheit.
 ;;         welcome-dashboard-min-left-padding 10
-;;         welcome-dashboard-image-file "~/.doom.d/themes/true.png"
+;;         welcome-dashboard-image-file "~/.emacs.d/themes/true.png"
 ;;         welcome-dashboard-image-width 200
 ;;         welcome-dashboard-image-height 169
-;;         welcome-dashboard-title "Hey Paulie")
+;;         welcome-dashboard-title "Welcome Mikael. Have a great day!")
 ;;   (welcome-dashboard-create-welcome-hook))
-
-;; use-package with package.el:
-(use-package dashboard
-  :ensure t
-  :config
-  (dashboard-setup-startup-hook))
-
-(setq initial-buffer-choice (lambda () (get-buffer-create "*dashboard*")))
-
-;; Set the title
-(setq dashboard-banner-logo-title "Hey Paulie")
-;; Set the banner
-(setq dashboard-startup-banner "~/.doom.d/themes/true.png")
-;; Value can be
-;; - nil to display no banner
-;; - 'official which displays the official emacs logo
-;; - 'logo which displays an alternative emacs logo
-;; - 1, 2 or 3 which displays one of the text banners
-;; - "path/to/your/image.gif", "path/to/your/image.png", "path/to/your/text.txt" or "path/to/your/image.xbm" which displays whatever gif/image/text/xbm you would prefer
-;; - a cons of '("path/to/your/image.png" . "path/to/your/text.txt")
-
-;; Content is not centered by default. To center, set
-(setq dashboard-center-content t)
-;; vertically center content
-(setq dashboard-vertically-center-content t)
-
-;; To disable shortcut "jump" indicators for each section, set
-(setq dashboard-show-shortcuts nil)
-
-(setq dashboard-items '((recents   . 5)
-                        (bookmarks . 5)
-                        (projects  . 5)
-                        (agenda    . 5)
-                        (registers . 5)))

@@ -69,7 +69,3 @@
 (package! peep-dired)
 (package! tree-sitter)
 (package! tree-sitter-langs)
-(package! evil-commentary)
-(package! emojify)
-(package! tide)
-(package! elec-pair)
