@@ -79,6 +79,8 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 
+(map! :leader
+      :desc "Load new theme" "h t" #'load-theme)
 (setq doom-theme 'doom-gruvbox)
 (custom-set-faces
 '(default ((t (:background "#1a1a1a" :foreground "#a9b1d6")))))
@@ -93,9 +95,9 @@
 ;; red is too aggressive, so let's make it orange
   '(doom-modeline-buffer-modified :foreground "orange"))
 
- ;; opacity
-(set-frame-parameter nil 'alpha-background 95)
-;; (add-to-list 'default-frame-alist '(alpha-background . 76))
+;;  ;; opacity
+;; (set-frame-parameter (selected-frame) 'alpha-background 75)
+;; (add-to-list 'default-frame-alist '(alpha-background . 75))
 
  (defun toggle-transparency ()
    (interactive)
@@ -173,6 +175,16 @@
 ;;
 ;; - `load!' for loading external *.el files relative to this one
 ;; - `use-package!' for configuring packages
+;;
+
+(after! neotree
+  (setq neo-smart-open t
+        neo-window-fixed-size nil))
+(after! doom-themes
+  (setq doom-neotree-enable-variable-pitch t))
+(map! :leader
+      :desc "Toggle neotree file viewer" "t n" #'neotree-toggle
+      :desc "Open directory in neotree"  "d n" #'neotree-dir)
 ;;
 (use-package dired-subtree :ensure t
   :after dired
