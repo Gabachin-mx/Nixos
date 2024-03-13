@@ -186,18 +186,6 @@
       :desc "Toggle neotree file viewer" "t n" #'neotree-toggle
       :desc "Open directory in neotree"  "d n" #'neotree-dir)
 ;;
-;;
-
-(use-package dired-ranger
-  :ensure t)
-
-(eval-after-load "dired" '(progn
-  (interactive)  (define-key dired-mode-map (kbd "C-x w") 'dired-ranger-copy)
-  (interactive)  (define-key dired-mode-map (kbd "C-x x") 'dired-ranger-move)
-  (interactive)  (define-key dired-mode-map (kbd "C-x y") 'dired-ranger-paste)
-    ))
-
-;;
 (use-package dired-subtree :ensure t
   :after dired
   :config

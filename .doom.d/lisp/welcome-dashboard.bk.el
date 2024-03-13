@@ -312,7 +312,7 @@ And adding an ellipsis."
     (propertize (all-the-icons-icon-for-file file :v-adjust -0.05) 'face '(:family "all-the-icons" :height 1.0))))
 
 (defun welcome-dashboard--insert-recent-files ()
-  "Insert the first x recent files with icons in the welcome-dashboard buffer."
+  "Insert the first 15 recent files with icons in the welcome-dashboard buffer."
   (recentf-mode)
   (insert "\n")
   (let* ((files welcome-dashboard-recentfiles)
@@ -387,7 +387,7 @@ And adding an ellipsis."
   "Fetch weather data from API."
   (let ((url-request-method "GET")
         (url-request-extra-headers '(("Content-Type" . "application/json")))
-        (url (format "https://api.open-meteo.com/v1/forecast?latitude=%s&longitude=%s&current_weather=true" welcome-dashboard-latitude welcome-dashboard-longitude)))
+        (url (format "https://api.open-meteo.com/v1/forecast?latitude=19.4285&longitude=-99.1277&current_weather=true" welcome-dashboard-latitude welcome-dashboard-longitude)))
     (url-retrieve url
                   (lambda (_)
                     (goto-char (point-min))
