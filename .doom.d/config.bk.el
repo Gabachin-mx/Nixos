@@ -9,7 +9,14 @@
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 
+;; overwrite selected text
+(delete-selection-mode t)
+
 (defalias 'yes-or-no-p 'y-or-n-p)
+
+;; quit bufffers with :q
+(map!
+ [remap evil-quit] #'kill-current-buffer)
 
 (line-number-mode 1)
 (column-number-mode 1)
@@ -112,6 +119,9 @@
           '(75 . 50) '(100 . 100)))))
  (global-set-key (kbd "C-c t") 'toggle-transparency)
 
+;; toggle from current to previous buffer
+ (global-set-key (kbd "C-c b") 'mode-line-other-buffer)
+
 
 (setq doom-modeline-height 40)
 ;; add the battery status to our modeline.
@@ -139,7 +149,7 @@
 (setq org-directory "~/org/")
 
 ;; force doom to open at dashboard
-;; (setq doom-fallback-buffer-name "*dashboard*")
+; (setq doom-fallback-buffer-name "*dashboard*")
 ;; (setq fancy-splash-image "~/.doom.d/themes/true.png")
 ;; (setq +doom-dashboard-pwd-policy "~")
 
@@ -149,7 +159,7 @@
 (setq dashboard-startup-banner "~/.doom.d/themes/true.png")
 
 ;; set opacity of frames
-(add-to-list 'default-frame-alist '(alpha-background . 95))
+(add-to-list 'default-frame-alist '(alpha-background . 75))
 
 ;; backup files
 (setq auto-save-default t
@@ -186,17 +196,17 @@
       :desc "Toggle neotree file viewer" "t n" #'neotree-toggle
       :desc "Open directory in neotree"  "d n" #'neotree-dir)
 ;;
-;;
-
-(use-package dired-ranger
-  :ensure t)
-
-(eval-after-load "dired" '(progn
-  (interactive)  (define-key dired-mode-map (kbd "C-x w") 'dired-ranger-copy)
-  (interactive)  (define-key dired-mode-map (kbd "C-x x") 'dired-ranger-move)
-  (interactive)  (define-key dired-mode-map (kbd "C-x y") 'dired-ranger-paste)
-    ))
-
+(use-package dired
+;;  ..other setup stuff here..
+  :config
+  (use-package all-the-icons-dired
+    :if (display-graphic-p)
+    :hook (dired-mode . all-the-icons-dired-mode)
+    :config (setq all-the-icons-dired-monochrome nil))
+  (use-package treemacs-icons-dired
+    :if (display-graphic-p)
+    :config (treemacs-icons-dired-mode))
+  )
 ;;
 (use-package dired-subtree :ensure t
   :after dired
@@ -233,6 +243,7 @@
         :desc "Preview prev file"        :n "jj" #'peep-dired-next-file
         :desc "Scroll preview pane up"   :n "C-k" #'peep-dired-scroll-page-up
         :desc "Scroll preview pane down" :n "C-j" #'peep-dired-scroll-page-down)
+
 
   (setq
    peep-dired-cleanup-eagerly nil
@@ -555,6 +566,9 @@ _h_ decrease width    _l_ increase width
         (setq xclip-mode t)
         (setq xclip-method (quote wl-copy)))
 
+(add-to-list 'display-buffer-alist
+         '(".*" display-buffer-in-side-window
+          (side . left) (window-width . 110)))
 
 (add-to-list 'load-path "~/.doom.d/lisp")
 
@@ -738,7 +752,7 @@ _h_ decrease width    _l_ increase width
   :config
 
   ;; Hide the mode line of the Embark live/completions buffers
-  (add-to-list 'display-buffer-alist
+  (add-to-list 'd1isplay-buffer-alist
                '("\\`\\*Embark Collect \\(Live\\|Completions\\)\\*"
                  nil
                  (window-parameters (mode-line-format . none)))))
@@ -748,3 +762,23 @@ _h_ decrease width    _l_ increase width
   :ensure t ; only need to install it, embark loads it after consult if found
   :hook
   (embark-collect-mode . consult-preview-at-point-mode))
+
+(use-package fzf
+  :bind
+  (("C-x z" . fzf)
+   ("C-x R" . fzf-recentf)
+   ("C-x D" . fzf-directory))
+  :config
+  (setq fzf/args "-x --color bw --print-query --margin=1,0 --no-hscroll"
+        fzf/executable "fzf"
+        fzf/git-grep-args "-i --line-number %s"
+        ;; command used for `fzf-grep-*` functions
+        ;; example usage for ripgrep:
+        ;; fzf/grep-command "rg --no-heading -nH"
+        fzf/grep-command "grep -nrH"
+        ;; If nil, the fzf buffer will appear at the top of the window
+        fzf/position-bottom t
+        fzf/window-height 15))
+
+(use-package all-the-icons-dired
+  :hook (dired-mode . (lambda () (all-the-icons-dired-mode t))))
