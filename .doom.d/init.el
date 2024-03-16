@@ -15,6 +15,10 @@
 ;;      directory (for easy access to its source code).
 
 (desktop-save-mode 0)
+
+;; (load "server")
+;; (unless (server-running-p) (server-start))
+
 (setq dired-dwim-target t) ;; dired will guess where to copy file
 
 (doom! :input
@@ -25,7 +29,7 @@
 
        :completion
        company           ; the ultimate code completion backend
-       ;;helm              ; the *other* search engine for love and life
+       helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
        ;;ivy               ; a search engine for love and life
        vertico           ; the search engine of the future
