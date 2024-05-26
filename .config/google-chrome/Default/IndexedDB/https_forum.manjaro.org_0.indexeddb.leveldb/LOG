@@ -1,7 +1,0 @@
-2024/02/19-21:28:31.498 a6a Reusing MANIFEST /home/paul/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
-2024/02/19-21:28:31.499 a6a Recovering log #3
-2024/02/19-21:28:31.533 a6a Reusing old log /home/paul/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000003.log 
-2024/02/19-21:29:03.568 a6b Level-0 table #5: started
-2024/02/19-21:29:03.581 a6b Level-0 table #5: 515369 bytes OK
-2024/02/19-21:29:03.585 a6b Delete type=0 #3
-2024/02/19-21:29:03.586 a6b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
